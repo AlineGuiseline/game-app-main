@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1, 
+        "firstLine": "Ao caminhar na floresta com você, o sábio explica que existem muitos barulhos que são provocadas pelo encontro do vento com os troncos ocos de algumas árvores. Ele também fala que algumas pessoas da vila têm muito medo de entrar na floresta.", 
+        "secondLine": "Com isso, assinale a alternativa correta:",
+        "references": "",
+        "lastLine": "",
+        "options": ["A floresta é muito perigosa e isso deixa as pessoas assustadas.", "O medo das pessoas causa muito vento na floresta.", "A floresta bloqueia o barulho do vento e isso deixa as pessoas assustadas.", "As pessoas produzem vento na floresta para assustar outras pessoas.", "O vento produz muitos barulhos na floresta e isso deixa as pessoas assustadas."], 
+        "correctAnswer": "O vento produz muitos barulhos na floresta e isso deixa as pessoas assustadas."
+    },
+    {
+        "id": 2, 
+        "firstLine": "O sábio pede que você o ajude com uma poção. Um dos ingredientes dela é uma planta rara que cresce no lugar mais fundo e escuro na caverna. Para conseguir andar dentro da caverna é preciso usar uma tocha, no entanto para conseguir acender a tocha é preciso estar fora da caverna.",
+        "secondLine": "Com isso, assinale a alternativa correta.",
+        "references": "",
+        "lastLine": "",
+        "options": ["Se você encontrou a planta quer dizer que você andou no escuro.", "Se você estiver andando fora da caverna quer dizer que a tocha não foi acesa.", "Se você não encontrou a planta quer dizer que a poção foi feita.", "Se você estiver andando dentro da caverna quer dizer que a tocha foi acesa.", "Se você encontrou a planta quer dizer que a tocha não foi acesa."], 
+        "correctAnswer": "Se você estiver andando dentro da caverna quer dizer que a tocha foi acesa."
+    },
+    {
+        "id": 3, 
+        "firstLine": "Ao andar 10 metros pelo deserto, o sábio recolheu duas pedra do chão. A seguir, ao andar mais 10 metros, ele recolheu três pedras do chão. Depois, ele andou mais 10 metros e recolheu quatro pedras.", 
+        "secondLine": "Se ao todo ele andou 50 metros, assinale a alternativa correta com a quantidade pedras que o sábio recolheu.",
+        "references": "",
+        "lastLine": "",
+        "options": ["9 pedras.", "12 pedras.", "14 pedras.", "17 pedras.", "20 pedras."], 
+        "correctAnswer": "20 pedras."
+    },
+    {
+        "id": 4, 
+        "firstLine": "O sábio viu passar no céu desse ano um cometa, que só aparece a cada 4 anos. Com isso, assinale a alternativa correta sobre a quantidade de vezes que o sábio conclui que o cometa passará no céu nos próximos 10 anos.", 
+        "secondLine": "",
+        "references": "",
+        "lastLine": "",
+        "options": ["1 vez.", "2 vezes.", "3 vezes.", "4 vezes.", "5 vezes."], 
+        "correctAnswer": "2 vezes."
+    },
+    {
+        "id": 5, 
+        "firstLine": "O sábio contou a história sobre uma vila onde ele vivia antigamente. Ela sofria com a falta de progresso, por isso, com o tempo, o sábio começou a fundar escolas. Assim, a vila foi se desenvolvendo até que se tornou referência para todos do reino.", 
+        "secondLine": "Com isso, assinale a alternativa correta.",
+        "references": "",
+        "lastLine": "",
+        "options": ["A educação dá substância e fortalece bases de desenvolvimento de uma sociedade.", "O desenvolvimento acontece a partir do momento em que não há sábios na sociedade.", "A fundação de escolas só pode ser realizada por uma sociedade sem progresso.", "A falta de desenvolvimento atrai muitos sábios para uma vila.", "Só é possível virar uma grande referência quando não há escolas."], 
+        "correctAnswer": "A educação dá substância e fortalece bases de desenvolvimento de uma sociedade."
+    },
+    {
+        "id": 6, 
+        "firstLine": "O coelho é um personagem emblemático do livro “Alice no país das maravilhas”. Ele constantemente está apressado com a justificativa de que está atrasado, porém nunca se sabe o seu real objetivo. Esse comportamento está associado à síndrome da pressa, “um problema psicológico e comportamental que acontece com várias pessoas da atualidade. As pessoas costumam dizer que 24 horas é pouco tempo para realizar tantos afazeres”.", 
+        "secondLine": "",
+        "references": "CABRAL, G. Síndrome da pressa. Mundo Educação, 2018.",
+        "referenceDate": "Disponível em: . Acesso em: 14 nov. 2018.",
+        "lastLine": "",
+        "options": ["O coelho só está apressado porque não sabe o real objetivo dos seus afazeres.", "A síndrome da pressa é um problema atual que afeta grande parte os coelhos.", "O coelho está apressado porque 24 horas é pouco tempo para realizar seus afazeres.", "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante.", "O coelho está sempre apressado, mas isso não é um indicativo de síndrome da pressa."], 
+        "correctAnswer": "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante."
+    },
+    {
+        "id": 7, 
+        "firstLine": "Leia o texto a seguir:", 
+        "secondLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve as startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
+        "references": "NÓBREGA, M. Síndrome de Peter Pan: um país que não deixam crescer. EXAME, 2018.",
+        "referenceDate": "Disponível em: . Acesso em: 26 nov. 2018.",
+        "lastLine": "Com relação ao exposto, assinale a alternativa que descreve o termo “Síndrome de Peter Pan”:",
+        "options": ["“É preciso evitar incentivos que mantenham essas empresas eternamente pequenas.”", "“As empresas de menor porte merecem ser estimuladas.”", "“O progresso tecnológico muito deve às startups.”", "“Depois são adquiridas pelas grandes empresas.”", "“Situação em que as empresas nunca desejam crescer.”"], 
+        "correctAnswer": "“Situação em que as empresas nunca desejam crescer.”"
+    },
+    {
+        "id": 8, 
+        "firstLine": "Dom Quixote era um homem muito sonhador. Vivia imaginando grandes aventuras em que sempre fazia o papel de herói. Porém, de tanto ler e fantasiar, seu cérebro começou aos poucos a confundir-se. O passado e o presente se misturavam. Certo dia, convenceu-se de que era um daqueles valentes cavaleiros e tinha como missão ajudar os fracos e salvar as belas princesas raptadas por vilões.", 
+        "secondLine": "",
+        "references": "CERVANTES, M. Dom Quixote. São Paulo: Scipione, 1999.",
+        "referenceDate": "",
+        "lastLine": "Com isso, assinale a alternativa que classifica a ambiguidade da história de Dom Quixote.",
+        "options": ["Aventuras.", "Misturavam.", "Fantasiar.", "Ajudar.", "Sonhador."], 
+        "correctAnswer": "Fantasiar."
+    },
+    {
+        "id": 9, 
+        "firstLine": "Hércules foi um grande herói da Mitologia Grega. Ele era filho de Zeus (deus dos deuses) e da mortal Alcmena, por isso era considerado um semideus. Ele foi submetido a 12 trabalhos, que não poderiam ser executados por um mortal, sendo o primeiro deles matar o leão de Neméia.", 
+        "secondLine": "",
+        "references": "PACIEVITCH, T. Hércules. InfoEscola, 2018.",
+        "referenceDate": "",
+        "lastLine": "A respeito dos 12 trabalhos de Hércules, assinale a alternativa correta:",
+        "options": ["Hércules era considerado um semideus por realizar trabalhos que não poderiam ser executados por mortais.", "Dos 12 trabalhos demandados para Hércules, apenas o primeiro foi cumprido.", "Hércules foi o único herói da mitologia grega.", "Os 12 trabalhos de Hércules poderiam ser executados por um semideus.", "Como Hércules é filho de Zeus, ele poderia ser considerado deus dos deuses."], 
+        "correctAnswer": "Os 12 trabalhos de Hércules poderiam ser executados por um semideus."
+    },
+    {
+        "id": 10, 
+        "firstLine": "Leia o fragmento a seguir proferido por Polônio, personagem da história de Hamlet:", 
+        "secondLine": "“Duvida que o sol seja claridade",
+        "thirdLine": "Duvida que as estrelas sejam chama,",
+        "fourthLine": "Suspeita da mentira na verdade,",
+        "fifthLine": "Mas não duvida deste que te ama!”",
+        "references": "SHAKESPEARE, W. Hamlet. Online, 2014.",
+        "referenceDate": "Disponível em: . Acesso em: 26 nov. 2018.",
+        "lastLine": "Com isso, assinale a alternativa que retrata o sentimento expresso no exposto.",
+        "options": ["Medo.", "Dúvida.", "Emoção.", "Súplica.", "Alegria."], 
+        "correctAnswer": "Súplica."
+    }
+]
