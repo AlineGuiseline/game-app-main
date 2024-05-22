@@ -99,9 +99,53 @@
   pointer-events: auto;
 }
 
-.swiper-button-prev, .swiper-button-next {
-  color: white;
-  /* background-image: url('../../assets/GamePage/arrow-left.png'); */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #FFFFFF; 
+    position: absolute;
+    z-index: 10;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.swiper-button-next {
+    right: 20%;
+}
+
+.swiper-button-prev {
+    left: 20%;
+}
+
+@media (max-width: 1400px) {
+  .swiper-button-next {
+      right: 15%;
+  }
+
+  .swiper-button-prev {
+      left: 15%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .swiper-button-next {
+      right: 6%;
+  }
+
+  .swiper-button-prev {
+      left: 6%;
+  }
+}
+
+@media (max-width: 900px) {
+  .swiper-button-next {
+      right: 2%;
+  }
+
+  .swiper-button-prev {
+      left: 2%;
+  }
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
@@ -109,6 +153,6 @@
 }
 
 .swiper-button-prev:after, .swiper-button-next:after{
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
 }

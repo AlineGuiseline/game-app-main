@@ -109,6 +109,7 @@ function Carrossel() {
                     />
                 </SwiperSlide>
             ))}
+
         </Swiper>
         {isModalOpen && (
             <DownloadModal onClose={handleCloseModal} />
@@ -117,11 +118,6 @@ function Carrossel() {
         {allQuestionsAnswered && correctAnswersCount < 6 && (
             <ResetModal />
         )}
-         
-        <div className="swiper-button-prev slider-arrow">
-        </div>
-        <div className="swiper-button-next">
-        </div>
         
         <ProgressBarArea>
             <ProgressBarContainer>
@@ -135,7 +131,8 @@ function Carrossel() {
                 <p><span>{correctAnswersCount}</span> acertos</p>
             </TextArea>
         </ProgressBarArea>
-
+        <div className="swiper-button-prev slider-arrow"></div>
+        <div className="swiper-button-next"></div>
       </main> 
     );
 }

@@ -20,7 +20,14 @@ const Container = styled.div `
     
     @media (max-width: 1400px) {
         height: 15rem;
-    }    
+    }       
+    @media (max-width: 700px) {
+        width: 80%;
+        height: 30%;
+    }   
+    @media (max-width: 520px) {
+        padding: 0.5rem;
+    }  
 `
 
 const Title = styled.h2 `
@@ -32,7 +39,23 @@ const Title = styled.h2 `
     
     @media (max-width: 1400px) {
         font-size: 28px;
-    }    
+    }        
+    @media (max-width: 1100px) {
+        font-size: 26px;
+    } 
+    @media (max-width: 700px) {
+        font-size: 22px;
+        padding: 20px;
+        line-height: 30px;
+    }      
+    @media (max-width: 510px) {
+        font-size: 20px;
+        padding: 20px 10px;
+    } 
+    @media (max-width: 400px) {
+        font-size: 18px;
+        line-height: 25px;
+    }         
 `
 
 const Paragraph = styled.p `
@@ -44,7 +67,22 @@ const Paragraph = styled.p `
     
     @media (max-width: 1400px) {
         font-size: 20px;
-    }    
+    }         
+    @media (max-width: 1100px) {
+        font-size: 18px;
+    } 
+    @media (max-width: 700px) {
+        font-size: 16px;
+        padding: 0 10px;
+        line-height: 22px;
+    }
+    @media (max-width: 510px) {
+        font-size: 14px;
+    } 
+    @media (max-width: 400px) {
+        font-size: 12px;
+        line-height: 20px;
+    }            
 `
 
 const BtnArea = styled.div `
@@ -58,7 +96,10 @@ const BtnArea = styled.div `
     
     @media (max-width: 1400px) {
         margin-top: 2rem;
-    }    
+    }   
+    @media (max-width: 700px) {
+        gap: 1rem;
+    }     
 `
 
 const CancelButton = styled.button `
@@ -83,7 +124,16 @@ const CancelButton = styled.button `
     
     @media (max-width: 1400px) {
         font-size: 18px;
-    }    
+    }       
+    @media (max-width: 1100px) {
+        font-size: 16px;
+    }     
+    @media (max-width: 700px) {
+        font-size: 14px;
+    } 
+    @media (max-width: 510px) {
+        font-size: 12px;
+    }        
 `
 
 export {Container, Title, Paragraph, BtnArea, CancelButton}

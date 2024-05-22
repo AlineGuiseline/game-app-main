@@ -23,7 +23,13 @@ const Button = styled.button `
 
     @media (max-width: 1400px) {
         font-size: 18px;
-    }    
+    }        
+    @media (max-width: 1100px) {
+        font-size: 16px;
+    }  
+    @media (max-width: 700px) {
+        font-size: 14px;
+    }      
 `
 
 export {Button}

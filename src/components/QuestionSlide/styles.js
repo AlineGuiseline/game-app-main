@@ -16,7 +16,7 @@ const CardContainer = styled.div `
 `
 
 const TextArea = styled.div `
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 `
 
 const FirstLine = styled.p `
@@ -24,12 +24,11 @@ const FirstLine = styled.p `
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     
     @media (max-width: 1400px) {
         font-size: 16px;
         line-height: 25px;
-        padding-bottom: 0.5rem;
     }
     @media (max-width: 500px) {
         font-size: 14px;
@@ -120,11 +119,10 @@ const References = styled.p `
     font-weight: lighter;
     position: relative;
     text-align: end;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 
     @media (max-width: 1400px) {
         font-size: 13px;
-        padding-bottom: 0.5rem;
     }
     @media (max-width: 500px) {
         font-size: 11px;

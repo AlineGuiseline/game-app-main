@@ -37,7 +37,6 @@ function QuestionSlide({ question, onAnswer, onCorrectAnswer}) {
             let storedCorrectAnswers = JSON.parse(localStorage.getItem("storedCorrectAnswers")) || [];
             storedCorrectAnswers.push(question.correctAnswer);
             localStorage.setItem("storedCorrectAnswers", JSON.stringify(storedCorrectAnswers));
-            console.log(storedCorrectAnswers)
 
             onCorrectAnswer();
         }

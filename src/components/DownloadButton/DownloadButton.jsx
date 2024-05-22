@@ -7,7 +7,6 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
     const [info, setInfo] = useState([]);
 
     const isButtonEnabled = correctAnswersCount >= 3;
-    console.log("correctAnswersCount:", correctAnswersCount)
 
     useEffect(() => {
         const storedInfo = localStorage.getItem("storedInfo");
@@ -15,7 +14,6 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
         if (storedInfo){
           try {
             setInfo(JSON.parse(storedInfo))
-            console.log(storedInfo)
           } catch (error) {
             console.error("Invalid JSON in storedInfo:", error);
           }   
