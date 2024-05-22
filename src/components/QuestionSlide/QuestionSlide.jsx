@@ -59,12 +59,12 @@ function QuestionSlide({ question, onAnswer, onCorrectAnswer}) {
             <TextArea>
                 <FirstLine>{question.firstLine}</FirstLine>
                 <SecondLine>{question.secondLine}</SecondLine>
-                <ThirdLine>{question.thirdLine}</ThirdLine>
-                <FourthLine>{question.fourthLine}</FourthLine>
-                <FifthLine>{question.fifthLine}</FifthLine>
-                <References>{question.references}</References>
-                <ReferenceDate>{question.referenceDate}</ReferenceDate>
-                <LastLine>{question.lastLine}</LastLine>
+                {question.thirdLine && <ThirdLine>{question.thirdLine}</ThirdLine>}
+                {question.fourthLine && <FourthLine>{question.fourthLine}</FourthLine>}
+                {question.fifthLine && <FifthLine>{question.fifthLine}</FifthLine>}
+                {question.references && <References>{question.references}</References>}
+                {question.referenceDate && <ReferenceDate>{question.referenceDate}</ReferenceDate>}
+                {question.lastLine && <LastLine>{question.lastLine}</LastLine>}
             </TextArea>
             {question.options.map((option, index) => (
                 <AnswerButton

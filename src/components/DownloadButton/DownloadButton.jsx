@@ -37,7 +37,7 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
     
           const downloadLink = document.createElement('a');
           downloadLink.href = pdfUrl;
-          downloadLink.download = 'certificado.pdf';
+          downloadLink.download = `Certificado ${info[0]}.pdf`;
     
           downloadLink.click();
     

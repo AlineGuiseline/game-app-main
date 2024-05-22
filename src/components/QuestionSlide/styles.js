@@ -29,6 +29,7 @@ const FirstLine = styled.p `
     @media (max-width: 1400px) {
         font-size: 16px;
         line-height: 25px;
+        padding-bottom: 0.5rem;
     }
     @media (max-width: 500px) {
         font-size: 14px;
@@ -106,6 +107,7 @@ const LastLine = styled.p `
     @media (max-width: 1400px) {
         font-size: 16px;
         line-height: 25px;
+        padding-bottom: 0.5rem;
     }
     @media (max-width: 500px) {
         font-size: 14px;
@@ -122,6 +124,7 @@ const References = styled.p `
 
     @media (max-width: 1400px) {
         font-size: 13px;
+        padding-bottom: 0.5rem;
     }
     @media (max-width: 500px) {
         font-size: 11px;

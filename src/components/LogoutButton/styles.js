@@ -20,6 +20,10 @@ const Button = styled.button `
     &:hover {
         opacity: 0.9;
     }
+
+    @media (max-width: 1400px) {
+        font-size: 18px;
+    }    
 `
 
 export {Button}

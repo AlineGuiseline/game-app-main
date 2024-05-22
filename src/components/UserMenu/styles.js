@@ -12,6 +12,19 @@ const DropDownContainer = styled.div `
     border: none;
     color: #FFFFFF;
     z-index: 999;
+
+    @media screen and (max-width: 1400px){
+        right: 4.5rem;
+    }
+    @media screen and (max-width: 600px){
+        right: 2.5rem;
+    }
+    @media screen and (max-width: 1400px){
+        width: 13rem;
+    }
+    @media screen and (max-width: 300px){
+        right: 1.5rem;
+    }
 `
 
 const UserName = styled.li `
@@ -20,6 +33,10 @@ const UserName = styled.li `
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
+    
+    @media screen and (max-width: 300px){
+        font-size: 12px;
+    }
 `
 
 const UserRa = styled.li `
@@ -28,6 +45,10 @@ const UserRa = styled.li `
     font-weight: 300;
     font-size: 12px;
     line-height: 25px;
+    
+    @media screen and (max-width: 300px){
+        font-size: 10px;
+    }
 `
 
 const LogoutBtn = styled.button `
@@ -50,6 +71,10 @@ const LogoutBtn = styled.button `
 
     &:hover {
         opacity: 0.8;
+    }
+    
+    @media screen and (max-width: 300px){
+        font-size: 12px;
     }
 `
 

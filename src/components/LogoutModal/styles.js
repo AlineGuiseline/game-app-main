@@ -17,6 +17,10 @@ const Container = styled.div `
     align-items: center;
     padding: 2rem;
     color: #FFFFFF;
+    
+    @media (max-width: 1400px) {
+        height: 15rem;
+    }    
 `
 
 const Title = styled.h2 `
@@ -25,6 +29,10 @@ const Title = styled.h2 `
     font-size: 30px;
     line-height: 60px;
     text-align: center;
+    
+    @media (max-width: 1400px) {
+        font-size: 28px;
+    }    
 `
 
 const Paragraph = styled.p `
@@ -33,6 +41,10 @@ const Paragraph = styled.p `
     font-size: 22px;
     line-height: 44px;
     text-align: center;
+    
+    @media (max-width: 1400px) {
+        font-size: 20px;
+    }    
 `
 
 const BtnArea = styled.div `
@@ -43,6 +55,10 @@ const BtnArea = styled.div `
     width: 90%;
     gap: 2rem;
     margin-top: 2.5rem;
+    
+    @media (max-width: 1400px) {
+        margin-top: 2rem;
+    }    
 `
 
 const CancelButton = styled.button `
@@ -64,6 +80,10 @@ const CancelButton = styled.button `
     &:hover {
         opacity: 0.9;
     }
+    
+    @media (max-width: 1400px) {
+        font-size: 18px;
+    }    
 `
 
 export {Container, Title, Paragraph, BtnArea, CancelButton}
