@@ -26,7 +26,7 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
         const percentageCorrect = ((correctAnswersCount / totalQuestions) * 100).toFixed(0); // Calcula a porcentagem de acertos
 
         try {
-          const response = await axios.post('http://127.0.0.1:8000/gerar_certificado/', {
+          const response = await axios.post('https://game-pro-api.vercel.app/gerar_certificado/', {
             nome: info[0],
             sobrenome: info[1],
             registro: info[2],
