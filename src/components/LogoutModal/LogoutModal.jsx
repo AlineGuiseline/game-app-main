@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container } from "./styles";
+import { Container, Title, Paragraph, BtnArea, CancelButton } from "./styles";
 import LogoutButton from "../LogoutButton/LogoutButton";
 
 function LogoutModal({ closeModal, closeMenu }){
@@ -15,11 +15,13 @@ function LogoutModal({ closeModal, closeMenu }){
         <>
         {modalVisible && (
             <Container>
-                <h2>Tem certeza que deseja sair?</h2>
-                <p>Você perderá o progresso no jogo.</p>
+                <Title>Tem certeza que deseja sair?</Title>
+                <Paragraph>Você perderá o progresso no jogo.</Paragraph>
 
-                <button onClick={handleCloseModal}>Cancelar</button>
-                <LogoutButton />
+                <BtnArea>
+                    <CancelButton onClick={handleCloseModal}>Cancelar</CancelButton>
+                    <LogoutButton />
+                </BtnArea>
             </Container>
         )}
         </>

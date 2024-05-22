@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Button = styled.button `
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 33px;
     text-align: center;
     background-color: #139DEB;
@@ -12,10 +12,8 @@ const Button = styled.button `
 
     border: none;
     border-radius: 4px;
-    width: 100%;
-    height: 3rem;
-
-    margin-top: 1rem;
+    height: 3.5rem;
+    width: 13rem;
 
     cursor: pointer;
 

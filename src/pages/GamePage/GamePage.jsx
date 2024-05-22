@@ -57,9 +57,9 @@ function GamePage() {
                                 {info[0]}
                             </p>
                         ) : (
-                            <p>Carregando...</p>
+                            <p onClick={toggleMenu}>Carregando...</p>
                         )}
-                        <img src={arrowDown} alt="imagem de uma seta para baixo" />
+                        <img src={arrowDown} alt="imagem de uma seta para baixo"/>
                     </UserArea>
                 </UserContainer>
             </Header>
