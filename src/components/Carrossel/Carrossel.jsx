@@ -22,7 +22,7 @@ import ResetModal from "../../components/ResetModal/ResetModal";
 
 SwiperCore.use([Navigation]);
 
-function Carrossel() {
+function Carrossel({ isLogoutModalOpen }) {
     // Estado para rastrear quais perguntas foram respondidas
     const [answeredQuestions, setAnsweredQuestions] = useState({});
     // Referência ao swiper para controlar a navegação programaticamente
@@ -69,8 +69,6 @@ function Carrossel() {
         setIsResetModalOpen(isOpen);
     };
 
-
-
     useEffect(() => {
         if (allQuestionsAnswered && correctAnswersCount >= 6) {
             setIsModalOpen(true);
@@ -79,14 +77,14 @@ function Carrossel() {
 
     const handleCloseModal = () => {
         setIsModalOpen(false);
-        console.log(isModalOpen)
     };
 
     useEffect(() => {
         const swiperInstance = swiperRef.current.swiper;
         const slides = swiperInstance.slides
     
-        if (isModalOpen || isResetModalOpen) {
+        if (isModalOpen || isResetModalOpen || isLogoutModalOpen) {
+            console.log(isLogoutModalOpen)
             slides.forEach((slide) => {
                 slide.classList.add('swiper-slide-blurred');
             })
@@ -95,7 +93,7 @@ function Carrossel() {
                 slide.classList.remove('swiper-slide-blurred');
             })
         }
-    }, [isModalOpen, isResetModalOpen]);
+    }, [isModalOpen, isResetModalOpen, isLogoutModalOpen]);
     
 
     return (

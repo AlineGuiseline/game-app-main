@@ -1,15 +1,25 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Title, Paragraph, BtnArea, CancelButton } from "./styles";
 import LogoutButton from "../LogoutButton/LogoutButton";
 
-function LogoutModal({ closeModal, closeMenu }){
+function LogoutModal({ closeModal, closeMenu, onModalOpen }){
     const [modalVisible, setModalVisible] = useState(true);
 
     const handleCloseModal = () => {
         setModalVisible(false);
+        onModalOpen(false); // Aqui, você informa ao pai que o modal de logout está fechado
         closeModal();
         closeMenu();
     }
+    
+
+    useEffect(() => {
+        onModalOpen(true);
+    
+        return () => {
+            onModalOpen(false);
+        };
+    }, [onModalOpen]);    
 
     return (
         <>

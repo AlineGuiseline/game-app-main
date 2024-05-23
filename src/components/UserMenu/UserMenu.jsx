@@ -3,12 +3,13 @@ import LogoutModal from "../../components/LogoutModal/LogoutModal";
 import { DropDownContainer, UserName, UserRa, LogoutBtn } from './styles';
 import logoutIcon from "../../assets/GamePage/logout-icon.png";
 
-const UserMenu = ({closeMenu}) => {
+const UserMenu = ({closeMenu, onLogoutModalOpen, isLogoutModalOpen}) => {
     const [modalVisible, setModalVisible] = useState(false);
     const [info, setInfo] = useState([]);
 
     const logout = () => {
         setModalVisible(true);
+        onLogoutModalOpen(true);
     }
 
     useEffect(() => {
@@ -41,7 +42,12 @@ const UserMenu = ({closeMenu}) => {
             </div>
 
             {modalVisible && (
-                <LogoutModal closeModal={() => setModalVisible(false)} closeMenu={closeMenu} />
+                <LogoutModal
+                closeModal={() => setModalVisible(false)}
+                closeMenu={closeMenu}
+                onModalOpen={onLogoutModalOpen}
+                isLogoutModalOpen={isLogoutModalOpen}
+                />
             )}
         </DropDownContainer>
     )

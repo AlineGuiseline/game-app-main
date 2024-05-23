@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, LastLine,
+import { CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, SixthLine, LastLine,
      References, ReferenceDate, AnswerButton } from "./styles";
 
 import ellipse from "../../assets/GamePage/ellipse.png";
@@ -61,6 +61,7 @@ function QuestionSlide({ question, onAnswer, onCorrectAnswer}) {
                 {question.thirdLine && <ThirdLine>{question.thirdLine}</ThirdLine>}
                 {question.fourthLine && <FourthLine>{question.fourthLine}</FourthLine>}
                 {question.fifthLine && <FifthLine>{question.fifthLine}</FifthLine>}
+                {question.sixthLine && <SixthLine>{question.sixthLine}</SixthLine>}
                 {question.references && <References>{question.references}</References>}
                 {question.referenceDate && <ReferenceDate>{question.referenceDate}</ReferenceDate>}
                 {question.lastLine && <LastLine>{question.lastLine}</LastLine>}

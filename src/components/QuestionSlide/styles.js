@@ -24,7 +24,7 @@ const CardContainer = styled.div `
 `
 
 const TextArea = styled.div `
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 `
 
 const FirstLine = styled.p `
@@ -103,6 +103,22 @@ const FifthLine = styled.p `
         line-height: 23px;
     }
 `
+const SixthLine = styled.p `
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+
+    @media (max-width: 1400px) {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    @media (max-width: 500px) {
+        font-size: 14px;
+        line-height: 23px;
+    }
+`
+
 const LastLine = styled.p `
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -208,5 +224,5 @@ const AnswerButton = styled.button`
     }
 `;
 
-export {CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, LastLine,
+export {CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, SixthLine, LastLine,
     References, ReferenceDate, AnswerButton}

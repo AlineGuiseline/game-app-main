@@ -22,7 +22,8 @@
     },
     {
         "id": 4, 
-        "firstLine": "O sábio viu passar no céu desse ano um cometa, que só aparece a cada 4 anos. Com isso, assinale a alternativa correta sobre a quantidade de vezes que o sábio conclui que o cometa passará no céu nos próximos 10 anos:", 
+        "firstLine": "O sábio viu passar no céu desse ano um cometa, que só aparece a cada 4 anos.", 
+        "secondLine": "Com isso, assinale a alternativa correta sobre a quantidade de vezes que o sábio conclui que o cometa passará no céu nos próximos 10 anos:",
         "options": ["1 vez.", "2 vezes.", "3 vezes.", "4 vezes.", "5 vezes."], 
         "correctAnswer": "2 vezes."
     },
@@ -45,7 +46,7 @@
     {
         "id": 7, 
         "firstLine": "Leia o texto a seguir:", 
-        "secondLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve às startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
+        "thirdLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve às startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
         "references": "Fonte: NÓBREGA, M. Síndrome de Peter Pan: um país que não deixam crescer. EXAME, São Paulo, 22 dez. 2018. ",
         "referenceDate": "Disponível em: https://br.pinterest.com/pin/609252655859786190/. Acesso em: 22 maio 2024. ",
         "lastLine": "Com relação ao exposto, assinale a alternativa que descreve o termo “Síndrome de Peter Pan”:",
@@ -72,10 +73,10 @@
     {
         "id": 10, 
         "firstLine": "Leia o fragmento a seguir proferido por Polônio, personagem da história de Hamlet:", 
-        "secondLine": "“Duvida que o sol seja claridade",
-        "thirdLine": "Duvida que as estrelas sejam chama,",
-        "fourthLine": "Suspeita da mentira na verdade,",
-        "fifthLine": "Mas não duvida deste que te ama!”",
+        "thirdLine": "“Duvida que o sol seja claridade",
+        "fourthLine": "Duvida que as estrelas sejam chama,",
+        "fifthLine": "Suspeita da mentira na verdade,",
+        "sixthLine": "Mas não duvida deste que te ama!”",
         "references": "Fonte: SHAKESPEARE, William. Hamlet. Tradução de Bernardo Carvalho. São Paulo: Editora WMF, 2014. 240 p.",
         "referenceDate": "Disponível em: http://www.gutenberg.org/ebooks/25667. Acesso em: 22 maio 2024.",
         "lastLine": "Assinale a alternativa que retrata o sentimento expresso no trecho exposto:",

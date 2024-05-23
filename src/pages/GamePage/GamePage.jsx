@@ -10,6 +10,7 @@ import UserMenu from "../../components/UserMenu/UserMenu";
 function GamePage() {
     const [info, setInfo] = useState([]);
     const [menuVisible, setMenuVisible] = useState(false);
+    const [isLogoutModalOpen, setIsLogoutModalOpen] = useState(false);
 
     const menuRef = useRef(null);
     const containerRef = useRef(null);
@@ -45,6 +46,11 @@ function GamePage() {
         };
     }, []);
 
+    const handleLogoutModalOpen = (isOpen) => {
+        setIsLogoutModalOpen(isOpen);
+    };
+    
+
     return (
         <GeneralContainer>
             <Header>
@@ -66,11 +72,14 @@ function GamePage() {
 
             {menuVisible && (
                 <div ref={menuRef}>
-                    <UserMenu closeMenu={() => setMenuVisible(false)} />
+                    <UserMenu 
+                        closeMenu={() => setMenuVisible(false)} 
+                        onLogoutModalOpen={handleLogoutModalOpen} 
+                    />
                 </div>
             )}
 
-            <Carrossel />
+            <Carrossel isLogoutModalOpen={isLogoutModalOpen} />
         </GeneralContainer>
     );
 }

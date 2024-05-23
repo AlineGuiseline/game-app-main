@@ -41,7 +41,7 @@ const Container = styled.div `
 
 const PercentageContainer = styled.div `
     border-radius: 50%;
-    width: 18%;
+    width: 16%;
     height: 20%;
     display: flex;
     justify-content: center;
@@ -58,9 +58,11 @@ const PercentageContainer = styled.div `
     @media (max-width: 600px) {
         margin-bottom: 1rem;
     }
-    @media (max-width: 500px) {
-        width: 95px;
-        height: 95px;
+    @media (max-width: 510px) {
+        width: 90px;
+    }
+    @media (max-width: 400px) {
+        height: 90px;
     }
 `
   
