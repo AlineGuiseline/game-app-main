@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 const Container = styled.div `
     position: fixed;
-    width: 40rem;
-    height: 33rem;
+    width: 48rem;
+    height: 35rem;
     z-index: 999;
-    top: 45%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -50%);
     border-radius: 4px;
     background-color: #181818;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -19,14 +19,11 @@ const Container = styled.div `
     color: #FFFFFF;
     
     @media (max-width: 1400px) {
-        width: 37rem;
-        height: 28rem;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -65%);
+        width: 44rem;
+        height: 30rem;
     }
-    @media (max-width: 700px) {
-        width: 30rem;
+    @media (max-width: 900px) {
+        width: 37rem;
         padding: 2rem;
     }
     @media (max-width: 700px) {
@@ -35,13 +32,16 @@ const Container = styled.div `
     }
     @media (max-width: 600px) {
         width: 80vw;
-        height: 80vh;
+        /* height: 80vh; */
+    }    
+    @media (max-width: 300px) {
+        height: 60vh;
     }
 `
 
 const PercentageContainer = styled.div `
     border-radius: 50%;
-    width: 20%;
+    width: 18%;
     height: 20%;
     display: flex;
     justify-content: center;
@@ -50,13 +50,17 @@ const PercentageContainer = styled.div `
     margin-bottom: 1rem;
 
     @media (max-width: 1400px) {
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 95px;
         margin-bottom: 1rem;
     }
     
     @media (max-width: 600px) {
         margin-bottom: 1rem;
+    }
+    @media (max-width: 500px) {
+        width: 95px;
+        height: 95px;
     }
 `
   
@@ -118,7 +122,7 @@ const Paragraph = styled.p `
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 1rem;
-    text-align: justify;
+    text-align: left;
     
     @media (max-width: 1400px) {
         font-size: 16px;

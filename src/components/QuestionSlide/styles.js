@@ -5,8 +5,16 @@ const CardContainer = styled.div `
     flex-direction: column;
     gap: 0.5rem;
     padding: 2rem 3rem;
-    text-align: justify;
-    
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media (max-width: 1100px) {
+        top: 0;
+        transform: translateY(0%);
+    } 
+
     @media (max-width: 500px) {
         padding: 2rem 1.5rem;
     } 
@@ -38,7 +46,7 @@ const FirstLine = styled.p `
 const SecondLine = styled.p `
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
 
     @media (max-width: 1400px) {
@@ -98,7 +106,7 @@ const FifthLine = styled.p `
 const LastLine = styled.p `
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
     
     padding-top: 1rem;
@@ -120,6 +128,7 @@ const References = styled.p `
     position: relative;
     text-align: end;
     padding-top: 0.5rem;
+    word-break: break-word;
 
     @media (max-width: 1400px) {
         font-size: 13px;
@@ -135,6 +144,7 @@ const ReferenceDate = styled.p `
     font-weight: lighter;
     position: relative;
     text-align: end;
+    word-break: break-word;
 
     @media (max-width: 1400px) {
         font-size: 13px;
@@ -149,7 +159,7 @@ const AnswerButton = styled.button`
     font-size: 16px;
     line-height: 25px;
     font-weight: 200;
-    text-align: justify;
+    text-align: left;
     color: #FFFFFF;
     border: 1px solid ${props => props.selected ? (props.correct ? '#39CC59' : '#E03F3F') : '#BFBFBF'};
     border-radius: 4px;

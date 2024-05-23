@@ -48,17 +48,17 @@ const LoginArea = styled.div `
     flex-direction: column;
     justify-content: center;
     background-color: #181818;
-    width: 70%;
+    width: 80%;
     height: fit-content; /* 70% */
     padding: 3rem;
     border-radius: 4px;
     
     @media screen and (max-width: 1400px){
-        width: 80%;
+        width: 90%;
         height: 90%;
     }
     @media screen and (max-width: 1100px){
-        width: 90%;
+        height: 80%;
     }
     @media screen and (max-width: 500px){
         padding: 2rem;
@@ -68,50 +68,59 @@ const LoginArea = styled.div `
     }
 `
 
-const TitleArea = styled.div `
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0;
+// const TitleArea = styled.div `
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 1rem 0;
+// `
+
+const GameTitle = styled.img `
+    width: 15rem;
+    margin: 1rem auto;
+
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 
-const GameTitle = styled.h1 `
-    font-family: 'Orbitron', sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 20px;
+// const GameTitle = styled.h1 `
+//     font-family: 'Orbitron', sans-serif;
+//     color: #FFFFFF;
+//     font-weight: 700;
+//     font-size: 70px;
+//     line-height: 20px;
 
-    @media screen and (max-width: 1400px){
-        font-size: 60px;
-    }
+//     @media screen and (max-width: 1400px){
+//         font-size: 60px;
+//     }
 
-    @media screen and (max-width: 1100px){
-        font-size: 50px;
-    }
-    @media screen and (max-width: 500px){
-        font-size: 40px;
-    }
+//     @media screen and (max-width: 1100px){
+//         font-size: 50px;
+//     }
+//     @media screen and (max-width: 500px){
+//         font-size: 40px;
+//     }
     
-`
+// `
 
-const ProSubtitle = styled.h2 `
-    font-family: 'Quicksand', sans-serif;
-    color: #139DEB;
-    font-weight: lighter;
-    font-size: 52px;
+// const ProSubtitle = styled.h2 `
+//     font-family: 'Quicksand', sans-serif;
+//     color: #139DEB;
+//     font-weight: lighter;
+//     font-size: 52px;
 
-    @media screen and (max-width: 1400px){
-        font-size: 50px;
-    }
-    @media screen and (max-width: 1100px){
-        font-size: 45px;
-    }
-    @media screen and (max-width: 500px){
-        font-size: 35px;
-    }
-`
+//     @media screen and (max-width: 1400px){
+//         font-size: 50px;
+//     }
+//     @media screen and (max-width: 1100px){
+//         font-size: 45px;
+//     }
+//     @media screen and (max-width: 500px){
+//         font-size: 35px;
+//     }
+// `
 
 const TextArea = styled.div `
     margin: 0.5rem 0;
@@ -142,7 +151,7 @@ const TextArea = styled.div `
 const FormContainer = styled.form `
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     margin: 1.5rem 0;
 
     @media screen and (max-width: 1400px){
@@ -180,11 +189,10 @@ const Label = styled.label `
 
 const FormGroupInline = styled.div `
     display: flex;
-    gap: 1rem; /* espaço entre os campos Nome e Sobrenome */
+    gap: 1rem;
 
     width: 100%;
     
-    /* Certifique-se de que os filhos ocupem a largura total disponível */
     & > ${FormGroup} {
         flex: 1;
     }
@@ -222,7 +230,7 @@ const FormButton = styled.button `
     border: none;
     border-radius: 4px;
     padding: 0.8rem;
-    margin: 1rem 0;
+    margin-top: 2.5rem;
     cursor: pointer;
 
     &:hover {
@@ -235,6 +243,6 @@ const FormButton = styled.button `
 `
 
 export {GeneralContainer, LeftSide, LoginImage, RightSide, LoginArea, 
-    TitleArea, GameTitle, ProSubtitle, TextArea, 
+    GameTitle, TextArea, 
     FormContainer, FormGroup, Label, FormGroupInline, Input, FormButton
 }

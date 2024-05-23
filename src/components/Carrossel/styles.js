@@ -9,7 +9,7 @@ const ProgressBarArea = styled.div `
 
 const ProgressBarContainer = styled.div `
   width: 40%;
-  background-color: #e0e0df;
+  background-color: #000000;
   border-radius: 5px;
   overflow: hidden;
   /* margin: 10px 0; */

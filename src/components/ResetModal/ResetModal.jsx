@@ -4,13 +4,7 @@ import ResetButton from "../ResetButton/ResetButton";
 import questions from "../../data/questions.json";
 import { Container, PercentageContainer, Percentage, Title, Subtitle, Paragraph } from "./styles.js";
 
-function ResetModal(){
-    // const [modalVisible, setModalVisible] = useState(true);
-
-    // const closeModal = () => {
-    //     setModalVisible(false)
-    // }
-
+function ResetModal({ onModalOpen }){
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
 
     const storedAnswers = JSON.parse(localStorage.getItem("storedCorrectAnswers")) || [];
@@ -21,6 +15,14 @@ function ResetModal(){
     const totalAnswered = Object.keys(storedAnswers).length;
 
     const progressPercentage = ((totalAnswered / questions.length) * 100).toFixed(0);
+
+    useEffect(() => {
+        onModalOpen(true);
+
+        return () => {
+            onModalOpen(false);
+        };
+    }, [onModalOpen]);
 
     return (
 

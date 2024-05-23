@@ -63,6 +63,14 @@ function Carrossel() {
     // Exibição do modal de Download
     const [isModalOpen, setIsModalOpen] = useState(false);
 
+    const [isResetModalOpen, setIsResetModalOpen] = useState(false);
+
+    const handleResetModalOpen = (isOpen) => {
+        setIsResetModalOpen(isOpen);
+    };
+
+
+
     useEffect(() => {
         if (allQuestionsAnswered && correctAnswersCount >= 6) {
             setIsModalOpen(true);
@@ -71,7 +79,24 @@ function Carrossel() {
 
     const handleCloseModal = () => {
         setIsModalOpen(false);
+        console.log(isModalOpen)
     };
+
+    useEffect(() => {
+        const swiperInstance = swiperRef.current.swiper;
+        const slides = swiperInstance.slides
+    
+        if (isModalOpen || isResetModalOpen) {
+            slides.forEach((slide) => {
+                slide.classList.add('swiper-slide-blurred');
+            })
+        } else {
+            slides.forEach((slide) => {
+                slide.classList.remove('swiper-slide-blurred');
+            })
+        }
+    }, [isModalOpen, isResetModalOpen]);
+    
 
     return (
         <main className="container">
@@ -101,7 +126,9 @@ function Carrossel() {
           className="swiper_container"
         >
             {questions.map(question => (
-                <SwiperSlide key={question.id}>
+                <SwiperSlide 
+                key={question.id}
+                >
                     <QuestionSlide
                         question={question}
                         onAnswer={() => handleAnswer(question.id)}
@@ -116,7 +143,7 @@ function Carrossel() {
         )}
             
         {allQuestionsAnswered && correctAnswersCount < 6 && (
-            <ResetModal />
+            <ResetModal onModalOpen={handleResetModalOpen}  />
         )}
         
         <ProgressBarArea>

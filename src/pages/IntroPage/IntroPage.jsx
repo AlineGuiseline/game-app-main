@@ -2,11 +2,12 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { GeneralContainer, LeftSide, LoginImage, RightSide, FormContainer, FormGroup, 
-    Label, Input, FormGroupInline, LoginArea, TextArea, TitleArea, GameTitle, ProSubtitle,
+    Label, Input, FormGroupInline, LoginArea, TextArea, GameTitle,
     FormButton
  } from "./styles";
 
 import login_image from "../../assets/IntroPage/login_image.png";
+import game_logo from "../../assets/IntroPage/Logo.svg";
 
 function IntroPage() {
     const [nome, setNome] = useState('')
@@ -40,10 +41,11 @@ function IntroPage() {
 
             <RightSide>
                 <LoginArea>
-                    <TitleArea>
+                    {/* <TitleArea>
                         <GameTitle>GAME</GameTitle> 
                         <ProSubtitle>proficiência</ProSubtitle>
-                    </TitleArea>
+                    </TitleArea> */}
+                    <GameTitle src={game_logo} alt="" />
 
                     <TextArea>
                         <p>
