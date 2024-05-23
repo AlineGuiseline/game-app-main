@@ -36,7 +36,6 @@
     /* max-height: 100vh;
     padding: 4rem 1rem 0 1rem; */
     max-height: 80vh;
-    overflow-y: scroll;
   }
   .swiper_container {
     /* height: 30rem; */
@@ -49,7 +48,7 @@
     /* width: 45rem; */
     width: 60rem;
     /* padding-bottom: 10rem; */
-
+    overflow-y: scroll;
     
   }
 }
