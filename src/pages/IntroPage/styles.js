@@ -237,7 +237,7 @@ const FormButton = styled.button `
         opacity: 0.8;
     }
 
-    @media screen and (max-width: 500px){  
+    @media screen and (max-width: 1400px){  
         margin-top: 0.5rem;
     }
 
