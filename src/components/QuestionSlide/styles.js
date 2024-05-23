@@ -10,7 +10,7 @@ const CardContainer = styled.div `
     top: 50%;
     transform: translateY(-50%);
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1400px) {
         top: 0;
         transform: translateY(0%);
     } 

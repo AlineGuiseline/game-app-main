@@ -237,9 +237,14 @@ const FormButton = styled.button `
         opacity: 0.8;
     }
 
+    @media screen and (max-width: 500px){  
+        margin-top: 0.5rem;
+    }
+
     @media screen and (max-width: 500px){
         font-size: 14px;
     }
+    
 `
 
 export {GeneralContainer, LeftSide, LoginImage, RightSide, LoginArea, 
