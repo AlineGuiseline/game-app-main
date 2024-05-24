@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
-import { Button } from "./styles";
+import { Button} from "./styles";
+
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplete }) => {
     const [info, setInfo] = useState([]);
@@ -56,35 +58,7 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
       }
 
       const [isLoading, setIsLoading] = useState(false);
-
-      const LoadingSpinner = () => (
-        <div className="loading-spinner">
-          {/* Adicione aqui o estilo e o design do seu spinner */}
-          <p>Loading...</p>
-        </div>
-      );
-
-      const handleDownloadCertificate = async () => {
-        setIsLoading(true);
-        
-        try {
-          // Simule o processo de download com uma função async
-          await simulateDownload();
-          
-          // Processo de download real
-          // await downloadCertificate();
-        } catch (error) {
-          console.error('Erro ao baixar o certificado:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
       
-      const simulateDownload = () => {
-        return new Promise((resolve) => setTimeout(resolve, 3000)); // Simula um download de 3 segundos
-      };
-      
-  
       return (
         <>
               <Button
