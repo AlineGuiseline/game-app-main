@@ -62,6 +62,8 @@ const LoginArea = styled.div `
     }
     @media screen and (max-width: 500px){
         padding: 2rem;
+        height: 90%;
+        justify-content: normal;
     }
     @media screen and (max-width: 400px){
         height: 95%;
