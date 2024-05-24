@@ -17,7 +17,7 @@ const Loading = styled.span `
     height: 70px;
     background-color: transparent;
     display: block;
-    border: 8px solid #777777;
+    border: 6px solid #777777;
     border-top-color: #139DEB;
     border-radius: 50%;
 
