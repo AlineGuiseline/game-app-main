@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import { GeneralContainer, LeftSide, LoginImage, RightSide, FormContainer, FormGroup, 
     Label, Input, FormGroupInline, LoginArea, TextArea, GameTitle,
-    FormButton
+    FormButton, ErrorAlert
  } from "./styles";
 
 import login_image from "../../assets/IntroPage/login_image.png";
@@ -99,7 +99,7 @@ function IntroPage() {
                         </FormGroupInline>
                         
                         <FormButton type="submit" onClick={handleFimDoJogo}>Entrar</FormButton>
-                        {errorMessage && <p style={{ color: 'red'}}>{errorMessage}</p>}
+                        {errorMessage && <ErrorAlert>{errorMessage}</ErrorAlert>}
                     </FormContainer>
                 </LoginArea>
             </RightSide>

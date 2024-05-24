@@ -55,7 +55,7 @@ const LoginArea = styled.div `
     
     @media screen and (max-width: 1400px){
         width: 90%;
-        height: 90%;
+        height: 95%;
     }
     @media screen and (max-width: 1100px){
         height: 80%;
@@ -247,7 +247,20 @@ const FormButton = styled.button `
     
 `
 
+const ErrorAlert = styled.p `
+    font-family: 'Inter', sans-serif;
+    color: red;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+
+    @media screen and (max-width: 500px){
+        font-size: 14px;
+    }
+`
+
 export {GeneralContainer, LeftSide, LoginImage, RightSide, LoginArea, 
     GameTitle, TextArea, 
-    FormContainer, FormGroup, Label, FormGroupInline, Input, FormButton
+    FormContainer, FormGroup, Label, FormGroupInline, Input, FormButton, ErrorAlert
 }
