@@ -24,32 +24,33 @@ const UserMenu = ({closeMenu, onLogoutModalOpen, isLogoutModalOpen}) => {
     }, []);
 
     return (
-        <DropDownContainer>
-            <div className="gap-4">
-                {info.length > 0 ? (
-                    <>
-                    <UserName>{info[0]} {info[1]}</UserName>
-                    <UserRa>RA: {info[2]}</UserRa>
-                    </>
-                ) : (
-                    <UserName>Carregando...</UserName>
-                    )
-                }
-                
-                <LogoutBtn onClick={logout}>
-                    <img src={logoutIcon} alt="" />
-                    Sair</LogoutBtn>
-            </div>
-
+        <>
+            <DropDownContainer>
+                <div className="gap-4">
+                    {info.length > 0 ? (
+                        <>
+                        <UserName>{info[0]} {info[1]}</UserName>
+                        <UserRa>RA: {info[2]}</UserRa>
+                        </>
+                    ) : (
+                        <UserName>Carregando...</UserName>
+                        )
+                    }
+                    
+                    <LogoutBtn onClick={logout}>
+                        <img src={logoutIcon} alt="" />
+                        Sair</LogoutBtn>
+                </div>
+            </DropDownContainer>
             {modalVisible && (
-                <LogoutModal
-                closeModal={() => setModalVisible(false)}
-                closeMenu={closeMenu}
-                onModalOpen={onLogoutModalOpen}
-                isLogoutModalOpen={isLogoutModalOpen}
-                />
-            )}
-        </DropDownContainer>
+                    <LogoutModal
+                    closeModal={() => setModalVisible(false)}
+                    closeMenu={closeMenu}
+                    onModalOpen={onLogoutModalOpen}
+                    isLogoutModalOpen={isLogoutModalOpen}
+                    />
+                )}
+        </>
     )
 }
 

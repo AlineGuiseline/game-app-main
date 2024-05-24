@@ -7,12 +7,11 @@ function LogoutModal({ closeModal, closeMenu, onModalOpen }){
 
     const handleCloseModal = () => {
         setModalVisible(false);
-        onModalOpen(false); // Aqui, você informa ao pai que o modal de logout está fechado
+        onModalOpen(false);
         closeModal();
         closeMenu();
     }
     
-
     useEffect(() => {
         onModalOpen(true);
     

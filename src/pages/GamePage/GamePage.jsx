@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Carrossel from "../../components/Carrossel/Carrossel";
 
-import { GeneralContainer, Header, LogoImg, UserArea, UserContainer } from "./styles";
+import { GeneralContainer, Header, LogoImg, UserArea, UserContainer, InvertedImage, AnimatedUserMenu  } from "./styles";
 
 import logoImg from "../../assets/GamePage/logo.png";
 import arrowDown from "../../assets/GamePage/arrow-down.png";
@@ -65,18 +65,21 @@ function GamePage() {
                         ) : (
                             <p onClick={toggleMenu}>Carregando...</p>
                         )}
-                        <img src={arrowDown} alt="imagem de uma seta para baixo"/>
+                        <InvertedImage 
+                        src={arrowDown} 
+                        isInverted={menuVisible}
+                        alt="imagem de uma seta para baixo" />
                     </UserArea>
                 </UserContainer>
             </Header>
 
             {menuVisible && (
-                <div ref={menuRef}>
+                <AnimatedUserMenu ref={menuRef}>
                     <UserMenu 
                         closeMenu={() => setMenuVisible(false)} 
                         onLogoutModalOpen={handleLogoutModalOpen} 
                     />
-                </div>
+                </AnimatedUserMenu>
             )}
 
             <Carrossel isLogoutModalOpen={isLogoutModalOpen} />

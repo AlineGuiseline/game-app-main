@@ -1,4 +1,15 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const slideDown = keyframes`
+    from {
+        transform: translateY(-40%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+`;
 
 const DropDownContainer = styled.div `
     position: absolute;
@@ -12,6 +23,7 @@ const DropDownContainer = styled.div `
     border: none;
     color: #FFFFFF;
     z-index: 999;
+    animation: ${slideDown} 0.6s ease-in-out forwards;
 
     @media screen and (max-width: 1400px){
         right: 4.5rem;

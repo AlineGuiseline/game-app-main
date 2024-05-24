@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 import backgroundImage from "../../assets/GamePage/background.png";
 
 const GeneralContainer = styled.main `
@@ -77,14 +77,20 @@ const UserArea = styled.div `
             font-size: 12px;
         }
     }
-
-    img {
-        width: 1rem;
-
-        @media (max-width: 400px) {
-            width: 0.5rem;
-        }
-    }
 `
 
-export {GeneralContainer, Header, LogoImg, UserContainer, UserArea}
+const InvertedImage = styled.img`
+    width: 1rem;
+  transform: ${props => (props.isInverted ? 'rotate(180deg)' : 'rotate(0deg)')};
+  transition: transform 0.3s ease;
+
+          @media (max-width: 400px) {
+            width: 0.5rem;
+        }
+`;
+
+const AnimatedUserMenu = styled.div`
+
+`;
+
+export {GeneralContainer, Header, LogoImg, UserContainer, UserArea, InvertedImage, AnimatedUserMenu}
