@@ -66,8 +66,6 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
               onClick={handleFimDoJogo}>Baixar certificado</Button>
 
               {isLoading && <LoadingSpinner />}
-
-              <LoadingSpinner />
         </>
       )
   }
