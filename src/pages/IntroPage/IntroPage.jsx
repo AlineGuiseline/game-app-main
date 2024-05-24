@@ -33,6 +33,13 @@ function IntroPage() {
         }
     }
 
+    const handleInputChange = (e) => {
+        const value = e.target.value;
+        if (value.length <= 8){
+            setRegistro(value);
+        }
+    }
+
     return (
         <GeneralContainer>
             <LeftSide>
@@ -66,10 +73,7 @@ function IntroPage() {
                             id="registro"
                             value={registro}
                             required
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                setRegistro(isNaN(value) ? '' : value);
-                            }} />
+                            onChange={handleInputChange} />
                         </FormGroup>
 
                         <FormGroupInline>
