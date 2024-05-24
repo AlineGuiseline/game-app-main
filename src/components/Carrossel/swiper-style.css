@@ -64,6 +64,17 @@
   }
 }
 
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 75vh;
+    padding: 0.5rem 0;
+  }
+  .swiper-slide {
+    height: 70vh;
+  }
+}
+
+
   /*
 @media (max-width: 500px) {
     .swiper_container {

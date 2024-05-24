@@ -16,11 +16,8 @@ const CardContainer = styled.div `
     } 
 
     @media (max-width: 500px) {
-        padding: 2rem 1.5rem;
+        padding: 0.5rem;
     } 
-    @media (max-width: 350px) {
-        padding: 2rem 1rem;
-    }    
 `
 
 const TextArea = styled.div `
@@ -212,15 +209,22 @@ const AnswerButton = styled.button`
         height: 4rem;
         padding: 0.5rem;
         gap: 0.5rem;
+    }   
+    @media (max-width: 600px) {
+        height: 5rem;
     }    
     @media (max-width: 500px) {
         font-size: 11px;
         line-height: 16px;
+        height: 4rem;
     }    
     @media (max-width: 400px) {
         font-size: 10px;
         line-height: 15px;
-        height: 5rem;
+    }
+    @media (max-width: 300px) {
+        font-size: 9px;
+        line-height: 13px;
     }
 `;
 

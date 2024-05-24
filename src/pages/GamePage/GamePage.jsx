@@ -77,7 +77,7 @@ function GamePage() {
                 <AnimatedUserMenu ref={menuRef}>
                     <UserMenu 
                         closeMenu={() => setMenuVisible(false)} 
-                        onLogoutModalOpen={handleLogoutModalOpen} 
+                        onLogoutModalOpen={handleLogoutModalOpen}
                     />
                 </AnimatedUserMenu>
             )}
