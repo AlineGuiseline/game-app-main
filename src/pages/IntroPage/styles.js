@@ -63,6 +63,9 @@ const LoginArea = styled.div `
     @media screen and (max-width: 500px){
         padding: 2rem;
     }
+    @media screen and (max-width: 400px){
+        height: 95%;
+    }
     @media screen and (max-width: 300px){
         padding: 1rem;
     }
