@@ -21,6 +21,8 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
     }, []);
 
     const handleFimDoJogo = async () => {
+      setIsLoading(true); // Inicia o loading
+
         const percentageCorrect = ((correctAnswersCount / totalQuestions) * 100).toFixed(0); // Calcula a porcentagem de acertos
 
         try {
@@ -48,13 +50,49 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
           }
         } catch (error) {
           console.error('Erro ao enviar solicitação:', error);
+        } finally {
+          setIsLoading(false); // Termina o loading
         }
       }
+
+      const [isLoading, setIsLoading] = useState(false);
+
+      const LoadingSpinner = () => (
+        <div className="loading-spinner">
+          {/* Adicione aqui o estilo e o design do seu spinner */}
+          <p>Loading...</p>
+        </div>
+      );
+
+      const handleDownloadCertificate = async () => {
+        setIsLoading(true);
+        
+        try {
+          // Simule o processo de download com uma função async
+          await simulateDownload();
+          
+          // Processo de download real
+          // await downloadCertificate();
+        } catch (error) {
+          console.error('Erro ao baixar o certificado:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      
+      const simulateDownload = () => {
+        return new Promise((resolve) => setTimeout(resolve, 3000)); // Simula um download de 3 segundos
+      };
+      
   
       return (
+        <>
               <Button
               disabled={!isButtonEnabled}
               onClick={handleFimDoJogo}>Baixar certificado</Button>
+
+              {isLoading && <LoadingSpinner />}
+        </>
       )
   }
 
