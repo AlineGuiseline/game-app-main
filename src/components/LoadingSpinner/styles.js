@@ -13,8 +13,8 @@ const LoadingContainer = styled.div `
     z-index: 1000;
 `
 const Loading = styled.span `
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: transparent;
     display: block;
     border: 8px solid #777777;
@@ -24,10 +24,15 @@ const Loading = styled.span `
     animation: loading 1s infinite;
 
     @keyframes loading{
-    to {
-        transform: rotate(1turn);
+        to {
+            transform: rotate(1turn);
+        }
     }
-}
+
+    @media screen and (max-width: 400px) {
+        width: 50px;
+        height: 50px;
+    }
 `
 
 export {LoadingContainer, Loading}
