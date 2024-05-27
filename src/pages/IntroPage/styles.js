@@ -41,6 +41,10 @@ const RightSide = styled.section `
     @media screen and (max-width: 1100px){
         width: 90%;
     }
+    @media screen and (max-width: 500px){
+        align-items: normal;
+        margin-top: 2rem;
+    }
 `
 
 const LoginArea = styled.div `
@@ -61,12 +65,12 @@ const LoginArea = styled.div `
         height: 80%;
     }
     @media screen and (max-width: 500px){
-        padding: 1rem;
-        height: 80%;
+        padding: 2rem 1rem;
         justify-content: normal;
+        height: fit-content;
     }
     @media screen and (max-width: 400px){
-        height: 95%;
+        /* height: 95%; */
     }
     @media screen and (max-width: 300px){
         padding: 1rem;
