@@ -9,6 +9,10 @@ const GeneralContainer = styled.main `
     height: 100vh;
     width: 100vw;
     background-image: url(${backgroundImage});
+
+    @media screen and (max-width: 500px){
+        max-height: 100%;
+    }
 `
 
 const LeftSide = styled.section `
