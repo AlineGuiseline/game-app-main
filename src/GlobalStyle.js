@@ -8,18 +8,4 @@ export default createGlobalStyle `
     text-decoration: none !important;
     max-height: 100vh;
   }
-
-  ::-webkit-scrollbar-track {
-    background-color: #181818;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 16px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #139DEB;
-    border: 4px solid #181818;
-    border-radius: 8px;
-  }
 `
