@@ -84,19 +84,37 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
         const pdfBlob = await response.blob();
         const pdfUrl = URL.createObjectURL(pdfBlob);
 
-        const downloadLink = document.createElement('a');
-        downloadLink.href = pdfUrl;
-        downloadLink.download = `Certificado ${info[0]}.pdf`;
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-        downloadLink.click();
+        if (isMobile) {
+          // Usar iframe para dispositivos móveis
+          const iframe = document.createElement('iframe');
+          iframe.style.display = 'none';
+          iframe.src = pdfUrl;
+          document.body.appendChild(iframe);
 
-        URL.revokeObjectURL(pdfUrl);
+          // Remoção do iframe após um pequeno atraso
+          setTimeout(() => {
+              document.body.removeChild(iframe);
+              URL.revokeObjectURL(pdfUrl);
+          }, 100);
+      } else {
+          // Usar link de download para desktop
+          const downloadLink = document.createElement('a');
+          downloadLink.href = pdfUrl;
+          downloadLink.download = `Certificado ${info[0]}.pdf`;
 
-        if (onDownloadComplete) {
-            setTimeout(() => {
-                onDownloadComplete();
-            }, 2000);
-        }
+          document.body.appendChild(downloadLink);
+          downloadLink.click();
+          document.body.removeChild(downloadLink);
+
+          URL.revokeObjectURL(pdfUrl);
+      }
+      if (onDownloadComplete) {
+        setTimeout(() => {
+            onDownloadComplete();
+        }, 2000);
+    }
     } catch (error) {
         console.error('Erro ao enviar solicitação:', error);
     } finally {
