@@ -5,14 +5,15 @@ const GeneralContainer = styled.main `
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-y: hidden;
     max-height: 100vh;
     max-width: 100vw;
     background-image: url(${backgroundImage});
 
     @media screen and (max-width: 500px){
-        background-image: none;
-        background-color: #000000;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 `
 
@@ -46,6 +47,10 @@ const RightSide = styled.section `
 
     @media screen and (max-width: 1100px){
         width: 90%;
+    }
+    @media screen and (max-width: 500px){
+        align-items: normal;
+        margin-top: 4rem;
     }
 `
 
