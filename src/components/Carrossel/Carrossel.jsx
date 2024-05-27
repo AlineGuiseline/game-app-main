@@ -150,18 +150,19 @@ function Carrossel({ isLogoutModalOpen }) {
         
         <ProgressBarArea>
             <div className="swiper-button-prev slider-arrow"></div>
+
             <ProgressBarContainer>
                 <ProgressBar 
                 style={{ width: `${progressPercentage}%` }}
                 ></ProgressBar>
             </ProgressBarContainer>
             
-            <div className="swiper-button-next"></div>
-            
             <TextArea>
                 <p><span>{totalAnswered}/{questions.length}</span> respondidas</p>
                 <p><span>{correctAnswersCount}</span> acertos</p>
             </TextArea>
+
+            <div className="swiper-button-next"></div>
             
         </ProgressBarArea>
 
