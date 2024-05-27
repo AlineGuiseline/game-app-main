@@ -229,6 +229,6 @@
 }
 @media (max-width: 1150px) {
   .swiper-button-prev:after, .swiper-button-next:after {
-    font-size: 20px;
+    width: 90%;
   }
 }

@@ -12,8 +12,8 @@ const ProgressBarContainer = styled.div `
   background-color: #000000;
   border-radius: 5px;
   overflow: hidden;
-  /* margin: 10px 0; */
   margin: 0 auto;
+
   
   @media (max-width: 1400px) {
     width: 30%;
