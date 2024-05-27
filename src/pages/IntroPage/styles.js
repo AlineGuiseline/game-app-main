@@ -11,7 +11,7 @@ const GeneralContainer = styled.main `
     background-image: url(${backgroundImage});
 
     @media screen and (max-width: 500px){
-        max-height: 100%;
+        max-height: 90%;
     }
 `
 
