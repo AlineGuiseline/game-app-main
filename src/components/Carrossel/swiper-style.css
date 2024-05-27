@@ -189,12 +189,12 @@
 @media (max-width: 500px) {
   .swiper-button-next {
     right: 0%;
-    bottom: -33%;
+    top: 100%;
   }
 
   .swiper-button-prev {
     left: 0%;
-    bottom: -33%;
+    top: 100%;
   }
 }
 
