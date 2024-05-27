@@ -53,6 +53,10 @@ function Carrossel({ isLogoutModalOpen }) {
         [questionId]: true
       };
       localStorage.setItem("answeredQuestions", JSON.stringify(storedAnsweredQuestions));
+    
+      if (window.innerWidth < 500) {
+        swiperRef.current.swiper.slideNext();
+      }
     };
 
     const totalAnswered = Object.keys(answeredQuestions).length;

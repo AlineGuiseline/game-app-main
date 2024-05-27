@@ -30,6 +30,7 @@ const DropDownContainer = styled.div `
     }
     @media screen and (max-width: 600px){
         right: 2.5rem;
+        padding: 0;
     }
     @media screen and (max-width: 1400px){
         width: 13rem;
@@ -46,6 +47,9 @@ const UserName = styled.li `
     font-size: 14px;
     line-height: 25px;
     
+    @media screen and (max-width: 600px){
+        padding: 15px 15px 0 15px;
+    }
     @media screen and (max-width: 300px){
         font-size: 12px;
     }
@@ -57,7 +61,10 @@ const UserRa = styled.li `
     font-weight: 300;
     font-size: 12px;
     line-height: 25px;
-    
+
+    @media screen and (max-width: 600px){
+        padding: 0 15px;
+    }
     @media screen and (max-width: 300px){
         font-size: 10px;
     }
@@ -76,13 +83,20 @@ const LogoutBtn = styled.button `
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 0.5rem;
 
     cursor: pointer;
 
     &:hover {
         opacity: 0.8;
+    }
+
+    @media screen and (max-width: 600px){
+        width: 100%;
+        background-color: #2C2C2C;
+        padding: 8px 15px;
+        margin-bottom: 0.5rem;
     }
     
     @media screen and (max-width: 300px){

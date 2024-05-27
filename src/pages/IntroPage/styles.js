@@ -86,7 +86,7 @@ const GameTitle = styled.img `
     margin: 1rem auto;
 
     @media screen and (max-width: 500px){
-        width: 90%;
+        width: 60%;
     }
 `
 

@@ -23,6 +23,8 @@ function IntroPage() {
         if (!nome || !sobrenome || !registro){
             setErrorMessage('Todos os campos são obrigatórios')
             return
+        } else if (registro.length < 8){
+            setErrorMessage('O R.A. é composto por 8 dígitos')
         } else {
             let infos = [nome, sobrenome, registro];
             localStorage.setItem("storedInfo", JSON.stringify(infos));
@@ -48,10 +50,6 @@ function IntroPage() {
 
             <RightSide>
                 <LoginArea>
-                    {/* <TitleArea>
-                        <GameTitle>GAME</GameTitle> 
-                        <ProSubtitle>proficiência</ProSubtitle>
-                    </TitleArea> */}
                     <GameTitle src={game_logo} alt="" />
 
                     <TextArea>
