@@ -6,13 +6,9 @@ const GeneralContainer = styled.main `
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
     background-image: url(${backgroundImage});
-
-    @media screen and (max-width: 500px){
-        max-height: 90%;
-    }
 `
 
 const LeftSide = styled.section `
@@ -41,6 +37,7 @@ const RightSide = styled.section `
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
     @media screen and (max-width: 1100px){
         width: 90%;
