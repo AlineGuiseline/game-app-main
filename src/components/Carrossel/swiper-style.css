@@ -158,14 +158,14 @@
 
 @media (max-width: 500px) {
   .swiper-button-next {
-    background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
+    background-image: url('../../assets/GamePage/arrow-right.svg');
     width: 0;
-    height: 2rem;
+    height: 1rem;
   }
   .swiper-button-prev {
-    background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
+    background-image: url('../../assets/GamePage/arrow-left.svg');
     width: 0;
-    height: 2rem;
+    height: 1rem;
   }
 }
 
