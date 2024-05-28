@@ -235,19 +235,26 @@
 .swiper-button-prev:after, .swiper-button-next:after{
   font-size: 25px;
   font-weight: bold;
-  color: #FFFFFF;
 }
 
 @media (max-width: 600px) {
-  .swiper-button-prev:after, .swiper-button-next:after {
-    font-size: 20px;
-    color: #FFFFFF;
+  .swiper-button-next:after {
+    /* font-size: 20px;
+    color: #FFFFFF; */
+    
+    background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
   }
+
+  .swiper-button-prev:after {
+    background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
+  }
+
+  
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 15px;
     color: #FFFFFF;
   }
-}
+} */
