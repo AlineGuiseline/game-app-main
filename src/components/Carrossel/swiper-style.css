@@ -129,9 +129,8 @@
   }
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    content: none !important;
+.swiper-button-next::after, .swiper-button-prev::after {
+  content: "" !important;
 }
 
 .swiper-button-next,
