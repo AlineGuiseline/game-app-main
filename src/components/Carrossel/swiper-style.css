@@ -200,11 +200,11 @@
 
 @media (max-width: 1150px) {
   .swiper-button-next {
-      right: 3%;
+      right: 2%;
   }
 
   .swiper-button-prev {
-      left: 3%;
+      left: 2%;
   }
 }
 
@@ -218,13 +218,14 @@
   .swiper-button-prev {
     /* left: 2%;
     top: 100%; */
-    left: 0%;
+    left: 3%;
   }
 }
 
 @media (max-width: 350px) {
   .swiper-button-next {
     /* right: 2%; */
+    right: -1%;
   }
 
   .swiper-button-prev {
