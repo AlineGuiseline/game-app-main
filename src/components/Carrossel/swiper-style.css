@@ -128,14 +128,17 @@
     opacity: 1;
   }
 }
+.swiper-button-next:after, .swiper-button-prev:after {
+  content: none; /* Remove o conteúdo padrão */
+}
 
 .swiper-button-next,
 .swiper-button-prev {
     /* color: #FFFFFF;  */
     position: absolute;
     z-index: 10;
-    width: auto;
-    height: auto;
+    width: 2rem;
+    height: 5rem;
     padding: 10px;
     cursor: pointer;
 
@@ -155,11 +158,13 @@
 @media (max-width: 500px) {
   .swiper-button-next {
     background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
-    width: 2rem;
+    width: 0;
+    height: 2rem;
   }
   .swiper-button-prev {
     background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
-    width: 2rem;
+    width: 0;
+    height: 2rem;
   }
 }
 
@@ -206,55 +211,44 @@
   .swiper-button-next {
     /* right: 2%;
     top: 100%; */
-    right: 1%;
+    right: 0%;
   }
 
   .swiper-button-prev {
     /* left: 2%;
     top: 100%; */
-    left: 1%;
+    left: 0%;
   }
 }
 
 @media (max-width: 350px) {
   .swiper-button-next {
     /* right: 2%; */
-    right: 0%;
   }
 
   .swiper-button-prev {
     /* left: 2%; */
-    left: 0%;
   }
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
   opacity: 0.8;
 }
-
+/*
 .swiper-button-prev:after, .swiper-button-next:after{
   font-size: 25px;
   font-weight: bold;
 }
 
 @media (max-width: 600px) {
-  .swiper-button-next:after {
-    /* font-size: 20px;
-    color: #FFFFFF; */
-    
-    background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px;
   }
-
-  .swiper-button-prev:after {
-    background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
-  }
-
   
 }
-
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 15px;
-    color: #FFFFFF;
   }
-} */
+}
+*/
