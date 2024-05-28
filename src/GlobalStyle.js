@@ -6,6 +6,5 @@ export default createGlobalStyle `
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-    max-height: 100vh;
   }
 `

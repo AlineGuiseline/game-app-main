@@ -131,19 +131,40 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #FFFFFF; 
+    /* color: #FFFFFF;  */
     position: absolute;
     z-index: 10;
     width: auto;
     height: auto;
     padding: 10px;
     cursor: pointer;
+
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+} 
+
+.swiper-button-next {
+  background-image: url('../../assets/GamePage/arrow-right-wide-line.svg');
+}
+.swiper-button-prev {
+  background-image: url('../../assets/GamePage/arrow-left-wide-line.svg');
 }
 
 @media (max-width: 500px) {
   .swiper-button-next,
+  .swiper-button-prev  {
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+  }
+  .swiper-button-next {
+    background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
+  }
   .swiper-button-prev {
-      top: 100%;
+    background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
   }
 }
 
@@ -188,23 +209,25 @@
 
 @media (max-width: 500px) {
   .swiper-button-next {
-    right: 2%;
-    /* top: 100%; */
+    /* right: 2%;
+    top: 100%; */
+    right: 0%;
   }
 
   .swiper-button-prev {
-    left: 2%;
-    /* top: 100%; */
+    /* left: 2%;
+    top: 100%; */
+    left: 0%;
   }
 }
 
 @media (max-width: 350px) {
   .swiper-button-next {
-    right: 2%;
+    /* right: 2%; */
   }
 
   .swiper-button-prev {
-      left: 2%;
+    /* left: 2%; */
   }
 }
 
@@ -217,8 +240,14 @@
   font-weight: bold;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 600px) {
   .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 15px;
   }
 }

@@ -24,7 +24,7 @@ const ProgressBarContainer = styled.div `
   @media (max-width: 600px) {
     width: 20%;
   }
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     width: 15%;
   }
   @media (max-width: 400px) {
@@ -32,7 +32,10 @@ const ProgressBarContainer = styled.div `
   }
   @media (max-width: 300px) {
     width: 10%;
-  }
+  } */
+  @media (max-width: 500px) {
+  width: 85vw;
+}
 `
 
 const ProgressBar = styled.div `

@@ -159,13 +159,12 @@ function Carrossel({ isLogoutModalOpen }) {
             
             <TextArea>
                 <p><span>{totalAnswered}/{questions.length}</span> respondidas</p>
-                <p><span>{correctAnswersCount}</span> acertos</p>
+                <p><span>{correctAnswersCount}</span> {correctAnswersCount === 1 ? 'acerto' : 'acertos'}</p>
             </TextArea>
 
             <div className="swiper-button-next"></div>
             
         </ProgressBarArea>
-
       </main> 
     );
 }

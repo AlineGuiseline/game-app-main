@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from "styled-components";
+import styled from "styled-components";
 import backgroundImage from "../../assets/GamePage/background.png";
 
 const GeneralContainer = styled.main `
@@ -9,6 +9,10 @@ const GeneralContainer = styled.main `
     height: 100vh;
     width: 100vw;
     background-image: url(${backgroundImage});
+
+    @media (max-width: 600px) {
+        background-position: center;
+    }
 `
 
 const Header = styled.header `
