@@ -153,11 +153,11 @@
 }
 
 @media (max-width: 500px) {
-  .swiper-button-next {
+  .swiper-button-next, .swiper-button-next:after {
     background-image: url('../../assets/GamePage/arrow-right-wide-line-mobile.svg');
     width: 2rem;
   }
-  .swiper-button-prev {
+  .swiper-button-prev, .swiper-button-prev:after {
     background-image: url('../../assets/GamePage/arrow-left-wide-line-mobile.svg');
     width: 2rem;
   }
