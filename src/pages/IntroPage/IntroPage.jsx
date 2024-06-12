@@ -23,22 +23,17 @@ function IntroPage() {
         if (!nome || !sobrenome || !registro){
             setErrorMessage('Todos os campos são obrigatórios')
             return
-        } else if (registro.length < 8){
-            setErrorMessage('O R.A. é composto por 8 dígitos')
-        } else {
+        } else if (!/^[0-9\-]+$/.test(registro)) {
+            setErrorMessage('O registro deve conter apenas números e hífens');
+            return;
+        }
+        else {
             let infos = [nome, sobrenome, registro];
             localStorage.setItem("storedInfo", JSON.stringify(infos));
     
             setTimeout(() => {
                 navigate("/jogo")
             }, 100);
-        }
-    }
-
-    const handleInputChange = (e) => {
-        const value = e.target.value;
-        if (value.length <= 8){
-            setRegistro(value);
         }
     }
 
@@ -67,11 +62,11 @@ function IntroPage() {
                             <Label htmlFor="registro">R.A.</Label>
                             <Input 
                             className="register"
-                            type="number" 
+                            type="text" 
                             id="registro"
                             value={registro}
                             required
-                            onChange={handleInputChange} />
+                            onChange={(e) => setRegistro(e.target.value)} />
                         </FormGroup>
 
                         <FormGroupInline>
