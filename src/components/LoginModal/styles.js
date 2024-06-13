@@ -29,6 +29,9 @@ const Container = styled.div `
     @media (max-width: 520px) {
         padding: 0.5rem;
     }
+    @media (max-width: 400px) {
+        height: 25%;
+    }  
 `
 
 const Title = styled.h2 `
@@ -53,6 +56,12 @@ const Title = styled.h2 `
     @media (max-width: 400px) {
         font-size: 16px;
         line-height: 20px;
+    }      
+    @media (max-width: 350px) {
+        font-size: 14px;
+    }      
+    @media (max-width: 300px) {
+        font-size: 12px;
     }         
 `
 
@@ -67,13 +76,19 @@ const Paragraph = styled.p `
         font-size: 16px;
         line-height: 25px;
     }
-    @media (max-width: 50px) {
+    @media (max-width: 500px) {
         font-size: 14px;
     } 
     @media (max-width: 400px) {
         font-size: 12px;
         line-height: 20px;
-    }            
+    }          
+    @media (max-width: 350px) {
+        font-size: 10px;
+    }       
+    @media (max-width: 300px) {
+        font-size: 9px;
+    }           
 `
 
 const BtnArea = styled.div `
@@ -123,10 +138,13 @@ const CancelButton = styled.button `
     @media (max-width: 500px) {
         height: 2.5rem;
         font-size: 12px;
-    }  
+    }          
+    @media (max-width: 350px) {
+        font-size: 10px;
+    }      
     @media (max-width: 300px) {
-        font-size: 11px;
-    }       
+        font-size: 9px;
+    }     
 `
 const LoginButton = styled.button `
     font-family: 'Inter', sans-serif;
@@ -158,10 +176,13 @@ const LoginButton = styled.button `
     @media (max-width: 500px) {
         height: 2.5rem;
         font-size: 12px;
-    }    
+    }         
+    @media (max-width: 350px) {
+        font-size: 10px;
+    }           
     @media (max-width: 300px) {
-        font-size: 11px;
-    }       
+        font-size: 9px;
+    }     
 ` 
 
 export {Container, Title, Paragraph, BtnArea, CancelButton, LoginButton}
