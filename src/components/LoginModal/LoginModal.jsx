@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Title, Paragraph, BtnArea, CancelButton, LoginButton } from "./styles";
+import { Container, Title, Paragraph, BtnArea, CancelButton, LoginButton} from "./styles";
 
 function LoginModal({ handleCloseModal, handleLogin }){
     const [modalVisible, setModalVisible] = useState(true);
@@ -19,8 +19,8 @@ function LoginModal({ handleCloseModal, handleLogin }){
         {modalVisible && (
             <Container>
                 <Title>Tem certeza que as informações de login estão corretas?</Title>
-                <Paragraph>Essas informações serão utilizadas na emissão do seu 
-                    certificado. Não será possível alterar.
+                <Paragraph>Essas informações serão utilizadas na emissão <br />
+                do seu certificado. Não será possível alterar.
                 </Paragraph>
 
                 <BtnArea>

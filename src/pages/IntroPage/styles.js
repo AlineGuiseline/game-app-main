@@ -10,6 +10,11 @@ const GeneralContainer = styled.main `
     max-width: 100vw;
     background-image: url(${backgroundImage});
 
+    & > *:not(.modal) {
+        transition: filter 0.3s ease;
+        ${({ isBlurred }) => isBlurred && `filter: blur(5px); pointer-events: none;`}
+    }
+
     @media screen and (max-width: 500px){
         background-position: center;
         background-repeat: no-repeat;

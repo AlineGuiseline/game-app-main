@@ -61,73 +61,74 @@ function IntroPage() {
     }
 
     return (
-        <GeneralContainer>
-            <LeftSide>
-                <LoginImage src={login_image} alt="ilustração de um cérebro" />
-            </LeftSide>
+        <>
+            <GeneralContainer isBlurred={modalVisible}>
+                <LeftSide>
+                    <LoginImage src={login_image} alt="ilustração de um cérebro" />
+                </LeftSide>
 
-            <RightSide>
-                <LoginArea>
-                    <GameTitle src={game_logo} alt="" />
+                <RightSide>
+                    <LoginArea>
+                        <GameTitle src={game_logo} alt="" />
 
-                    <TextArea>
-                        <p>
-                        Seja bem-vindo ao Game de Proficiência! 
-                        </p>
-                        <p>
-                        Teste seus conhecimentos em interpretação e raciocínio 
-                        lógico por meio de um quiz com 10 questões. Vamos lá? 
-                        </p>
-                    </TextArea>
+                        <TextArea>
+                            <p>
+                            Seja bem-vindo ao Game de Proficiência! 
+                            </p>
+                            <p>
+                            Teste seus conhecimentos em interpretação e raciocínio 
+                            lógico por meio de um quiz com 10 questões. Vamos lá? 
+                            </p>
+                        </TextArea>
 
-                    <FormContainer onSubmit={loginConfirm}>
-                        <FormGroup>
-                            <Label htmlFor="registro">R.A.</Label>
-                            <Input 
-                            className="register"
-                            type="text" 
-                            id="registro"
-                            value={registro}
-                            required
-                            onChange={(e) => setRegistro(e.target.value)} />
-                        </FormGroup>
-
-                        <FormGroupInline>
+                        <FormContainer onSubmit={loginConfirm}>
                             <FormGroup>
-                                <Label htmlFor="nome">Nome</Label>
+                                <Label htmlFor="registro">R.A.</Label>
                                 <Input 
-                                type="text"
-                                id="nome"
-                                value={nome}
+                                className="register"
+                                type="text" 
+                                id="registro"
+                                value={registro}
                                 required
-                                onChange={(e) => setNome(e.target.value)} />
+                                onChange={(e) => setRegistro(e.target.value)} />
                             </FormGroup>
 
-                            <FormGroup>
-                                <Label htmlFor="nome">Sobrenome</Label>
-                                <Input 
-                                type="text"
-                                id="sobrenome"
-                                value={sobrenome}
-                                required
-                                onChange={(e) => setSobrenome(e.target.value)} />
-                            </FormGroup>
-                        </FormGroupInline>
-                        
-                        <FormButton type="submit" onClick={loginConfirm}>Entrar</FormButton>
-                        {errorMessage && <ErrorAlert>{errorMessage}</ErrorAlert>}
-                    </FormContainer>
-                </LoginArea>
-            </RightSide>
+                            <FormGroupInline>
+                                <FormGroup>
+                                    <Label htmlFor="nome">Nome</Label>
+                                    <Input 
+                                    type="text"
+                                    id="nome"
+                                    value={nome}
+                                    required
+                                    onChange={(e) => setNome(e.target.value)} />
+                                </FormGroup>
 
+                                <FormGroup>
+                                    <Label htmlFor="nome">Sobrenome</Label>
+                                    <Input 
+                                    type="text"
+                                    id="sobrenome"
+                                    value={sobrenome}
+                                    required
+                                    onChange={(e) => setSobrenome(e.target.value)} />
+                                </FormGroup>
+                            </FormGroupInline>
+                            
+                            <FormButton type="submit" onClick={loginConfirm}>Entrar</FormButton>
+                            {errorMessage && <ErrorAlert>{errorMessage}</ErrorAlert>}
+                        </FormContainer>
+                    </LoginArea>
+                </RightSide>
+
+            </GeneralContainer>
             {modalVisible && (
                 <LoginModal
                     handleCloseModal={() => setModalVisible(false)}
                     handleLogin={handleLogin}
                 />
             )}
-
-        </GeneralContainer>
+        </>
     )
 }
 
