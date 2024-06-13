@@ -9,15 +9,44 @@ import { GeneralContainer, LeftSide, LoginImage, RightSide, FormContainer, FormG
 import login_image from "../../assets/IntroPage/login_image.png";
 import game_logo from "../../assets/IntroPage/Logo.svg";
 
+import LoginModal from "../../components/LoginModal/LoginModal";
+
 function IntroPage() {
     const [nome, setNome] = useState('')
     const [sobrenome, setSobrenome] = useState('')
     const [registro, setRegistro] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    
+    const [modalVisible, setModalVisible] = useState(false);
 
     const navigate = useNavigate();
 
-    const handleFimDoJogo = (e) => {
+    const handleLogin = () => {
+        // e.preventDefault();
+
+        // if (!nome || !sobrenome || !registro){
+        //     setErrorMessage('Todos os campos são obrigatórios')
+        //     return
+        // } else if (!/^[0-9\-]+$/.test(registro)) {
+        //     setErrorMessage('O registro deve conter apenas números e hífens');
+        //     return;
+        // } else {
+        //     let infos = [nome, sobrenome, registro];
+        //     localStorage.setItem("storedInfo", JSON.stringify(infos));
+    
+        //     setTimeout(() => {
+        //         navigate("/jogo")
+        //     }, 100);
+        // }
+        let infos = [nome, sobrenome, registro];
+        localStorage.setItem("storedInfo", JSON.stringify(infos));
+
+        setTimeout(() => {
+            navigate("/jogo")
+        }, 100);
+    }
+
+    const loginConfirm = (e) => {        
         e.preventDefault();
 
         if (!nome || !sobrenome || !registro){
@@ -26,14 +55,8 @@ function IntroPage() {
         } else if (!/^[0-9\-]+$/.test(registro)) {
             setErrorMessage('O registro deve conter apenas números e hífens');
             return;
-        }
-        else {
-            let infos = [nome, sobrenome, registro];
-            localStorage.setItem("storedInfo", JSON.stringify(infos));
-    
-            setTimeout(() => {
-                navigate("/jogo")
-            }, 100);
+        } else {
+            setModalVisible((prevState) => !prevState);
         }
     }
 
@@ -57,7 +80,7 @@ function IntroPage() {
                         </p>
                     </TextArea>
 
-                    <FormContainer onSubmit={handleFimDoJogo}>
+                    <FormContainer onSubmit={loginConfirm}>
                         <FormGroup>
                             <Label htmlFor="registro">R.A.</Label>
                             <Input 
@@ -91,11 +114,19 @@ function IntroPage() {
                             </FormGroup>
                         </FormGroupInline>
                         
-                        <FormButton type="submit" onClick={handleFimDoJogo}>Entrar</FormButton>
+                        <FormButton type="submit" onClick={loginConfirm}>Entrar</FormButton>
                         {errorMessage && <ErrorAlert>{errorMessage}</ErrorAlert>}
                     </FormContainer>
                 </LoginArea>
             </RightSide>
+
+            {modalVisible && (
+                <LoginModal
+                    handleCloseModal={() => setModalVisible(false)}
+                    handleLogin={handleLogin}
+                />
+            )}
+
         </GeneralContainer>
     )
 }
