@@ -12,7 +12,7 @@ const GeneralContainer = styled.main `
 
     & > *:not(.modal) {
         transition: filter 0.3s ease;
-        ${({ isBlurred }) => isBlurred && `filter: blur(5px); pointer-events: none;`}
+        ${({ isBlurred }) => isBlurred && `filter: blur(6px); pointer-events: none;`}
     }
 
     @media screen and (max-width: 500px){
