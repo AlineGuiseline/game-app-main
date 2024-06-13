@@ -29,7 +29,7 @@ const Container = styled.div `
     @media (max-width: 520px) {
         padding: 0.5rem;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 350px) {
         height: 25%;
     }  
 `
