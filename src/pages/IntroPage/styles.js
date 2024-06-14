@@ -101,44 +101,6 @@ const GameTitle = styled.img `
         width: 60%;
     }
 `
-
-// const GameTitle = styled.h1 `
-//     font-family: 'Orbitron', sans-serif;
-//     color: #FFFFFF;
-//     font-weight: 700;
-//     font-size: 70px;
-//     line-height: 20px;
-
-//     @media screen and (max-width: 1400px){
-//         font-size: 60px;
-//     }
-
-//     @media screen and (max-width: 1100px){
-//         font-size: 50px;
-//     }
-//     @media screen and (max-width: 500px){
-//         font-size: 40px;
-//     }
-    
-// `
-
-// const ProSubtitle = styled.h2 `
-//     font-family: 'Quicksand', sans-serif;
-//     color: #139DEB;
-//     font-weight: lighter;
-//     font-size: 52px;
-
-//     @media screen and (max-width: 1400px){
-//         font-size: 50px;
-//     }
-//     @media screen and (max-width: 1100px){
-//         font-size: 45px;
-//     }
-//     @media screen and (max-width: 500px){
-//         font-size: 35px;
-//     }
-// `
-
 const TextArea = styled.div `
     margin: 0.5rem 0;
 
@@ -219,8 +181,8 @@ const Input = styled.input `
     padding: 0.8rem;
     font-size: 16px;
     border-radius: 4px;
-    width: 100%; /* Faz com que o input ocupe toda a largura do contêiner */
-    box-sizing: border-box; /* Inclui padding e border no tamanho total do input */
+    width: 100%;
+    box-sizing: border-box; 
     font-family: 'Inter', sans-serif;
     flex: 1;
 

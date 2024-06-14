@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-//import axios from 'axios';
+import PropTypes from "prop-types";
 
 import { Button} from "./styles";
-
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplete }) => {
@@ -21,42 +20,6 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
       }   
     }
   }, []);
-/*
-    const handleFimDoJogo = async () => {
-      setIsLoading(true); // Inicia o loading
-
-        const percentageCorrect = ((correctAnswersCount / totalQuestions) * 100).toFixed(0); // Calcula a porcentagem de acertos
-
-        try {
-          const response = await axios.post('https://game-pro-api.vercel.app/gerar_certificado/', {
-            nome: info[0],
-            sobrenome: info[1],
-            registro: info[2],
-            respostas: percentageCorrect
-          });
-          const pdfBlob = new Blob([response.data], { type: 'application/pdf' });
-          const pdfUrl = URL.createObjectURL(pdfBlob);
-    
-          const downloadLink = document.createElement('a');
-          downloadLink.href = pdfUrl;
-          downloadLink.download = `Certificado ${info[0]}.pdf`;
-    
-          downloadLink.click();
-    
-          URL.revokeObjectURL(pdfUrl);
-
-          if(onDownloadComplete){
-            setTimeout(() => {
-              onDownloadComplete();
-            }, 2000);
-          }
-        } catch (error) {
-          console.error('Erro ao enviar solicitação:', error);
-        } finally {
-          setIsLoading(false); // Termina o loading
-        }
-      }
-*/
 
   const handleFimDoJogo = async () => {
     setIsLoading(true); // Inicia o loading
@@ -116,5 +79,11 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
     </>
   )
 }
+
+DownloadButton.propTypes = {
+  correctAnswersCount: PropTypes.func.isRequired,
+  totalQuestions: PropTypes.func.isRequired,
+  onDownloadComplete: PropTypes.func.isRequired,
+};
 
 export default DownloadButton;

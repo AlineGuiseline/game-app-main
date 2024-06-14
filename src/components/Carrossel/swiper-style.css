@@ -12,27 +12,19 @@
   border-radius: 8px;
 }
 .container {
-    /* max-width: 124rem;
-    padding: 4rem 1rem;
-    margin: 0 auto; */
     max-width: 124rem;
     padding: 1rem 3rem;
     margin: 0 auto;
 }
   
 .swiper_container {
-    /* height: 52rem;
-    padding: 2rem 0; */
-    
     height: 49rem;
     padding: 4rem 0;
     position: relative;
 }
   
 .swiper-slide {
-    /* width: 50rem; */
     width: 68rem;
-    /* height: 48rem; */
     height: 100%;
   
     position: relative;
@@ -46,21 +38,15 @@
 
 @media (max-width: 1400px) {
   .container {
-    /* max-height: 100vh;
-    padding: 4rem 1rem 0 1rem; */
     max-height: 80vh;
   }
   .swiper_container {
-    /* height: 30rem; */
-    /* height: 75vh; */
     height: 80vh;
     padding: 1rem 0;
   }
   .swiper-slide {
     height: 75vh;
-    /* width: 45rem; */
     width: 60rem;
-    /* padding-bottom: 10rem; */
     overflow-y: scroll;
     
   }
@@ -135,7 +121,6 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    /* color: #FFFFFF;  */
     position: absolute;
     z-index: 10;
     width: 2rem;
@@ -179,12 +164,10 @@
 
 @media (max-width: 1600px) {
   .swiper-button-next {
-      /* right: 15%; */
       right: 10%;
   }
 
   .swiper-button-prev {
-      /* left: 15%; */
       left: 10%;
   }
 }
@@ -210,47 +193,20 @@
 
 @media (max-width: 500px) {
   .swiper-button-next {
-    /* right: 2%;
-    top: 100%; */
     right: 0%;
   }
 
   .swiper-button-prev {
-    /* left: 2%;
-    top: 100%; */
     left: 3%;
   }
 }
 
 @media (max-width: 350px) {
   .swiper-button-next {
-    /* right: 2%; */
     right: -1%;
-  }
-
-  .swiper-button-prev {
-    /* left: 2%; */
   }
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
   opacity: 0.8;
 }
-/*
-.swiper-button-prev:after, .swiper-button-next:after{
-  font-size: 25px;
-  font-weight: bold;
-}
-
-@media (max-width: 600px) {
-  .swiper-button-prev:after, .swiper-button-next:after {
-    font-size: 20px;
-  }
-  
-}
-@media (max-width: 500px) {
-  .swiper-button-prev:after, .swiper-button-next:after {
-    font-size: 15px;
-  }
-}
-*/

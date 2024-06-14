@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import DownloadButton from "../DownloadButton/DownloadButton";
-
-import questions from "../../data/questions.json";
-
+import PropTypes from "prop-types";
 import { Container, PercentageContainer, Percentage, Title, Subtitle, Paragraph } from "./styles.js";
+import DownloadButton from "../DownloadButton/DownloadButton";
+import questions from "../../data/questions.json";
 
 function DownloadModal({ onClose }){
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
@@ -42,5 +41,9 @@ function DownloadModal({ onClose }){
         </Container>
     )
 }
+
+DownloadModal.propTypes = {
+    onClose: PropTypes.func.isRequired,
+ };
 
 export default DownloadModal;

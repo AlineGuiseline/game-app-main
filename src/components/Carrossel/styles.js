@@ -24,15 +24,6 @@ const ProgressBarContainer = styled.div `
   @media (max-width: 600px) {
     width: 20%;
   }
-  /* @media (max-width: 500px) {
-    width: 15%;
-  }
-  @media (max-width: 400px) {
-    width: 13%;
-  }
-  @media (max-width: 300px) {
-    width: 10%;
-  } */
   @media (max-width: 500px) {
   width: 85vw;
 }

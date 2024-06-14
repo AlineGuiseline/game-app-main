@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { Container, Title, Paragraph, BtnArea, CancelButton, LoginButton} from "./styles";
 
 function LoginModal({ handleCloseModal, handleLogin }){
@@ -32,5 +33,10 @@ function LoginModal({ handleCloseModal, handleLogin }){
         </>
     )
 }
+
+LoginModal.propTypes = {
+    handleCloseModal: PropTypes.func.isRequired,
+    handleLogin: PropTypes.func.isRequired,
+};
 
 export default LoginModal;

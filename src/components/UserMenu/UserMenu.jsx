@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import PropTypes from "prop-types";
 import LogoutModal from "../../components/LogoutModal/LogoutModal";
 import { DropDownContainer, UserName, UserRa, LogoutBtn } from './styles';
 import logoutIcon from "../../assets/GamePage/logout-icon.png";
@@ -53,5 +54,11 @@ const UserMenu = ({closeMenu, onLogoutModalOpen, isLogoutModalOpen}) => {
         </>
     )
 }
+
+UserMenu.propTypes = {
+    closeMenu: PropTypes.func.isRequired,
+    onLogoutModalOpen: PropTypes.func.isRequired,
+    isLogoutModalOpen: PropTypes.func.isRequired,
+};
 
 export default UserMenu;

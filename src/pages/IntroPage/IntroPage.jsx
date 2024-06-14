@@ -22,22 +22,6 @@ function IntroPage() {
     const navigate = useNavigate();
 
     const handleLogin = () => {
-        // e.preventDefault();
-
-        // if (!nome || !sobrenome || !registro){
-        //     setErrorMessage('Todos os campos são obrigatórios')
-        //     return
-        // } else if (!/^[0-9\-]+$/.test(registro)) {
-        //     setErrorMessage('O registro deve conter apenas números e hífens');
-        //     return;
-        // } else {
-        //     let infos = [nome, sobrenome, registro];
-        //     localStorage.setItem("storedInfo", JSON.stringify(infos));
-    
-        //     setTimeout(() => {
-        //         navigate("/jogo")
-        //     }, 100);
-        // }
         let infos = [nome, sobrenome, registro];
         localStorage.setItem("storedInfo", JSON.stringify(infos));
 

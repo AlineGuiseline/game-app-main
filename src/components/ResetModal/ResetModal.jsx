@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import ResetButton from "../ResetButton/ResetButton";
 
 import questions from "../../data/questions.json";
@@ -45,5 +46,9 @@ function ResetModal({ onModalOpen }){
             </Container>
     )
 }
+
+ResetModal.propTypes = {
+    onModalOpen: PropTypes.func.isRequired,
+};
 
 export default ResetModal;

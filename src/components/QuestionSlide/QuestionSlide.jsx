@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
 import { CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, SixthLine, LastLine,
      References, ReferenceDate, AnswerButton } from "./styles";
@@ -81,5 +82,23 @@ function QuestionSlide({ question, onAnswer, onCorrectAnswer}) {
         </CardContainer>
     )
 }
+
+QuestionSlide.propTypes = {
+    question: PropTypes.shape({
+        firstLine: PropTypes.string.isRequired,
+        secondLine: PropTypes.string.isRequired,
+        thirdLine: PropTypes.string.isRequired,
+        fourthLine: PropTypes.string.isRequired,
+        fifthLine: PropTypes.string.isRequired,
+        sixthLine: PropTypes.string.isRequired,
+        references: PropTypes.string.isRequired,
+        referenceDate: PropTypes.string.isRequired,
+        lastLine: PropTypes.string.isRequired,
+        options: PropTypes.string.isRequired,
+        correctAnswer: PropTypes.string.isRequired,
+    }).isRequired,
+    onAnswer: PropTypes.func.isRequired,
+    onCorrectAnswer: PropTypes.bool.isRequired,
+  };
 
 export default QuestionSlide;

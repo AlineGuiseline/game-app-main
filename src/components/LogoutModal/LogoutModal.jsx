@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import { Container, Title, Paragraph, BtnArea, CancelButton } from "./styles";
 import LogoutButton from "../LogoutButton/LogoutButton";
 
@@ -36,5 +37,11 @@ function LogoutModal({ closeModal, closeMenu, onModalOpen }){
         </>
     )
 }
+
+LogoutModal.propTypes = {
+    closeModal: PropTypes.func.isRequired,
+    closeMenu: PropTypes.func.isRequired,
+    onModalOpen: PropTypes.func.isRequired,
+};
 
 export default LogoutModal;
