@@ -2,6 +2,7 @@
   "name": "game-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://livrodigital.unicesumar.edu.br/game/proficiencia/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "axios": "^1.6.8",
+    "jspdf": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
