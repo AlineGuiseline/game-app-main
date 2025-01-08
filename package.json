@@ -2,7 +2,6 @@
   "name": "game-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://livrodigital.unicesumar.edu.br/game/proficiencia/",
   "type": "module",
   "scripts": {
     "dev": "vite",
