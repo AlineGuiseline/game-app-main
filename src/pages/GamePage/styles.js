@@ -13,18 +13,28 @@ const GeneralContainer = styled.main `
     @media (max-width: 600px) {
         background-position: center;
     }
+
+    @media (max-width: 350px) {
+        height: 101vh;
+        width: 101vw;
+    }
+
+    @media (max-width: 300px) {
+        height: 102vh;
+    }
 `
 
 const Header = styled.header `
     width: 100vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between; 
     color: #FFFFFF;
     position: fixed;
     top: 0;
     padding: 2rem 4rem;
+    z-index: 1000;
     
   @media (max-width: 600px) {
     padding: 2rem;

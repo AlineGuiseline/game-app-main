@@ -4,7 +4,7 @@ const Container = styled.div `
     position: fixed;
     width: 48rem;
     height: 35rem;
-    z-index: 999;
+    z-index: 1000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

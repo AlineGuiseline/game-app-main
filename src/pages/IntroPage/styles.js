@@ -192,7 +192,7 @@ const Input = styled.input `
 
     &:focus {
         outline: none;
-        border: 1px solid #6E28E0;
+        border: 1px solid #139DEB;
     }
 
     @media screen and (max-width: 500px){

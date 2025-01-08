@@ -25,14 +25,12 @@ const DownloadButton = ({ correctAnswersCount, totalQuestions, onDownloadComplet
 
   const handleFimDoJogo = async () => {
     setIsLoading(true); // Inicia o loading
-    console.log('Botão clicado, iniciando geração do PDF');
 
     const percentageCorrect = ((correctAnswersCount / totalQuestions) * 100).toFixed(0); // Calcula a porcentagem de acertos
 
     try {
       // Chame a função para gerar o PDF
       await generatePDF(info[0], info[1], info[2], percentageCorrect);
-      console.log('Geração do PDF completa');
 
       if (onDownloadComplete) {
         setTimeout(() => {

@@ -4,20 +4,18 @@ const CardContainer = styled.div `
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 2rem 3rem;
+    padding: 3rem;
     text-align: left;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    /* top: 50%;
+    transform: translateY(-50%); */
 
-    @media (max-width: 1400px) {
+    /* @media (max-width: 1400px) {
         top: 0;
         transform: translateY(0%);
-    } 
+    }  */
 
-    @media (max-width: 500px) {
-        padding: 0.5rem;
-    } 
+    @media (max-width: 500px) {padding: 0.5rem;} 
 `
 
 const TextArea = styled.div `
@@ -31,19 +29,47 @@ const FirstLine = styled.p `
     line-height: 30px;
     padding-bottom: 0.5rem;
     
-    @media (max-width: 1400px) {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    @media (max-width: 500px) {
-        font-size: 14px;
-        line-height: 23px;
-    }
+    @media (max-width: 1400px) {font-size: 16px; line-height: 25px;}
+    @media (max-width: 500px) {font-size: 14px; line-height: 23px;}
 `
+const Image = styled.img `
+    /* width: 20%; */
+    width: 13em;
+    border-radius: 5px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin: 0.5em 0 1em 0;
+
+    @media (max-width: 600px) {width: 10em;}
+`
+
+const LargerImage = styled.img `
+    width: 23em;
+    border-radius: 5px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin: 0.5em 0 1em 0;
+
+    @media (max-width: 600px) {width: 85%;}
+`
+
+const ImageReference = styled.p `
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: center;
+
+    @media (max-width: 500px) {font-size: 13px;}
+    @media (max-width: 300px) {font-size: 12px;}
+`
+
 const SecondLine = styled.p `
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 30px;
 
     @media (max-width: 1400px) {
@@ -106,14 +132,8 @@ const SixthLine = styled.p `
     font-weight: 200;
     line-height: 30px;
 
-    @media (max-width: 1400px) {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    @media (max-width: 500px) {
-        font-size: 14px;
-        line-height: 23px;
-    }
+    @media (max-width: 1400px) {font-size: 16px; line-height: 25px;}
+    @media (max-width: 500px) {font-size: 14px; line-height: 23px;}
 `
 
 const LastLine = styled.p `
@@ -124,15 +144,8 @@ const LastLine = styled.p `
     
     padding-top: 1rem;
 
-    @media (max-width: 1400px) {
-        font-size: 16px;
-        line-height: 25px;
-        padding-bottom: 0.5rem;
-    }
-    @media (max-width: 500px) {
-        font-size: 14px;
-        line-height: 23px;
-    }
+    @media (max-width: 1400px) {font-size: 16px; line-height: 25px; padding-bottom: 0.5rem;}
+    @media (max-width: 500px) {font-size: 14px; line-height: 23px;}
 `
 const References = styled.p `
     font-family: 'Inter', sans-serif;
@@ -143,12 +156,8 @@ const References = styled.p `
     padding-top: 0.5rem;
     word-break: break-word;
 
-    @media (max-width: 1400px) {
-        font-size: 13px;
-    }
-    @media (max-width: 500px) {
-        font-size: 11px;
-    }
+    @media (max-width: 1400px) {font-size: 13px;}
+    @media (max-width: 500px) {font-size: 11px;}
 `
 
 const ReferenceDate = styled.p `
@@ -159,12 +168,8 @@ const ReferenceDate = styled.p `
     text-align: end;
     word-break: break-word;
 
-    @media (max-width: 1400px) {
-        font-size: 13px;
-    }
-    @media (max-width: 500px) {
-        font-size: 11px;
-    }
+    @media (max-width: 1400px) {font-size: 13px;}
+    @media (max-width: 500px) {font-size: 11px;}
 `
 
 const AnswerButton = styled.button`
@@ -201,32 +206,13 @@ const AnswerButton = styled.button`
         opacity: 0.8;
     }
 
-    @media (max-width: 1400px) {
-        font-size: 14px;
-        line-height: 20px;
-    }    
-    @media (max-width: 1100px) {
-        height: 4rem;
-        padding: 0.5rem;
-        gap: 0.5rem;
-    }   
-    @media (max-width: 600px) {
-        height: 5rem;
-    }    
-    @media (max-width: 500px) {
-        font-size: 11px;
-        line-height: 16px;
-        height: 4rem;
-    }    
-    @media (max-width: 400px) {
-        font-size: 10px;
-        line-height: 15px;
-    }
-    @media (max-width: 300px) {
-        font-size: 9px;
-        line-height: 13px;
-    }
+    @media (max-width: 1400px) {font-size: 14px; line-height: 20px;}    
+    @media (max-width: 1100px) {height: 4rem; padding: 0.5rem; gap: 0.5rem;}   
+    @media (max-width: 600px) {height: 5rem;}    
+    @media (max-width: 500px) {font-size: 11px; line-height: 16px; height: 4rem;}    
+    @media (max-width: 400px) {font-size: 10px; line-height: 15px;}
+    @media (max-width: 300px) {font-size: 9px; line-height: 13px;}
 `;
 
-export {CardContainer, TextArea, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine, SixthLine, LastLine,
+export {CardContainer, TextArea, FirstLine, Image, LargerImage, ImageReference, SecondLine, ThirdLine, FourthLine, FifthLine, SixthLine, LastLine,
     References, ReferenceDate, AnswerButton}

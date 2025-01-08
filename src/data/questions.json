@@ -1,86 +1,100 @@
 [
     {
         "id": 1, 
-        "firstLine": "Ao caminhar na floresta com você, o sábio explica que existem muitos barulhos que são provocados pelo encontro do vento com os troncos ocos de algumas árvores. Ele também fala que algumas pessoas da vila têm muito medo de entrar na floresta.", 
-        "secondLine": "Com base no exposto, assinale a alternativa correta:",
-        "options": ["A floresta é muito perigosa e isso deixa as pessoas assustadas.", "O medo das pessoas causa muito vento na floresta.", "A floresta bloqueia o barulho do vento e isso deixa as pessoas assustadas.", "As pessoas produzem vento na floresta para assustar outras pessoas.", "O vento produz muitos barulhos na floresta e isso deixa as pessoas assustadas."], 
-        "correctAnswer": "O vento produz muitos barulhos na floresta e isso deixa as pessoas assustadas."
+        "firstLine": "Observe o diálogo a seguir entre Alice e a lagarta, personagem do livro “Alice no país das maravilhas”:", 
+        "secondLine": "Lagarta Azul: - Quem é você?",
+        "thirdLine": "Alice: - Eu... já nem sei, minha senhora, nesse momento... Bem, eu sei quem eu era quando acordei esta manhã, mas acho que mudei tantas vezes desde então... mas o que sei é que tudo isso parece muito estranho para mim.",
+        "references": "Fonte: Livros digitais. Conselhos de uma lagarta. On-line, 2018.",
+        "referenceDate": "Disponível em: https://www.livros-digitais.com/lewis-carroll/alice-no-pais-das-maravilhas/31. Acesso em: 14 nov. 2018.",
+        "lastLine": "De acordo com o diálogo, assinale a alternativa correta:",
+        "options": ["A personagem não sabe seu próprio nome.", "A personagem reconhece suas constantes transformações de forma confortável.", "A personagem não consegue responder perguntas simples.", "A personagem encontra-se em um momento de confusão a respeito da identificação do próprio “eu”.", "A personagem precisa de ajuda para recuperar sua memória."], 
+        "correctAnswer": "A personagem encontra-se em um momento de confusão a respeito da identificação do próprio “eu”."
     },
     {
         "id": 2, 
-        "firstLine": "O sábio pede que você o ajude com uma poção. Um dos ingredientes dele é uma planta rara que cresce no lugar mais fundo e escuro na caverna. Para conseguir andar dentro da caverna, é preciso usar uma tocha. No entanto, para conseguir acender a tocha, é preciso estar fora da caverna.",
-        "secondLine": "Com base no exposto, assinale a alternativa correta:",
-        "options": ["Se você encontrou a planta, quer dizer que você andou no escuro.", "Se você estiver andando fora da caverna, quer dizer que a tocha não foi acesa.", "Se você não encontrou a planta, quer dizer que a poção foi feita.", "Se você estiver andando dentro da caverna, quer dizer que a tocha foi acesa.", "Se você encontrou a planta, quer dizer que a tocha não foi acesa."], 
-        "correctAnswer": "Se você estiver andando dentro da caverna, quer dizer que a tocha foi acesa."
+        "firstLine": "Observe o diálogo a seguir:",
+        "secondLine": "- Poderia me dizer, por favor, que caminho devo tomar para sair daqui? disse Alice.",
+        "thirdLine": "- Isso depende bastante de onde você quer chegar, disse o Gato.",
+        "fourthLine": "- O lugar não importa muito…",
+        "fifthLine": "- Então não importa o caminho que você vai tomar.",
+        "references": "Fonte: STINGUEL, D. Lista de livros. On-line, 2018.",
+        "referenceDate": "Disponível em: https://listadelivros-doney.blogspot.com/2008/05/alice-no-pas-das-maravilhas-lewis.html. Acesso em: 14 nov. 2018.",
+        "lastLine": "A partir do diálogo, a respeito do que é possível inferir, assinale a alternativa correta:",
+        "options": ["O gato está tão perdido quanto Alice.", "Se o objetivo de Alice é apenas sair daquele lugar, qualquer caminho será válido.", "O caminho não importa, se existe um objetivo.", "Só existe um caminho correto e o gato sabe qual é.", "Só o lugar importa para Alice, por isso ela não sabe qual caminho tomar."], 
+        "correctAnswer": "Se o objetivo de Alice é apenas sair daquele lugar, qualquer caminho será válido."
     },
     {
         "id": 3, 
-        "firstLine": "Ao andar 10 metros pelo deserto, o sábio recolheu duas pedras do chão. A seguir, ao andar mais 10 metros, ele recolheu três pedras do chão. Depois, ele andou mais 10 metros e recolheu quatro pedras. ", 
-        "secondLine": "Se ao todo ele andou 50 metros, assinale a alternativa correta com a quantidade de pedras que o sábio recolheu:",
-        "options": ["9 pedras.", "12 pedras.", "14 pedras.", "17 pedras.", "20 pedras."], 
-        "correctAnswer": "20 pedras."
+        "firstLine": "O livro “Alice no País das Maravilhas” conta a história da jovem Alice que cai, por acidente, dentro da toca de um coelho e, assim, é transportada para um espaço lúdico, colocando-a em contato com diversos personagens que lhe ensinam ou lhe propõem desafios. Muitos dizem que a história trata da transição da infância para adolescência, momento em que muitos jovens estão se descobrindo e buscando uma identidade, um espaço para “chamar de seu”.", 
+        "lastLine": "Com isso, a respeito do livro, assinale a alternativa correta:",
+        "options": ["Alice é uma garota madura, porém ainda muito jovem e não consegue entender mais o universo lúdico.", "Alice precisa percorrer toda a história para entender que ainda é criança.", "O acidente que Alice sofreu causou toda a confusão de identidade na garota. A todo tempo, ela estava buscando um espaço para “chamar de seu”", "O espaço lúdico, aliado aos desafios enfrentados pela garota, consegue representar muito bem esse cenário de transição da infância para a adolescência.", "Alice não está preparada para encarar desafios, assim como muitos adultos."], 
+        "correctAnswer": "O espaço lúdico, aliado aos desafios enfrentados pela garota, consegue representar muito bem esse cenário de transição da infância para a adolescência."
     },
     {
         "id": 4, 
-        "firstLine": "O sábio viu passar no céu desse ano um cometa, que só aparece a cada 4 anos.", 
-        "secondLine": "Com isso, assinale a alternativa correta sobre a quantidade de vezes que o sábio conclui que o cometa passará no céu nos próximos 10 anos:",
-        "options": ["1 vez.", "2 vezes.", "3 vezes.", "4 vezes.", "5 vezes."], 
-        "correctAnswer": "2 vezes."
+        "firstLine": "Leia o trecho a seguir pronunciado pelo chapeleiro, um dos personagens do livro “Alice no país das maravilhas”", 
+        "secondLine": "“O Tempo não suporta ser marcado como se fosse gado. Mas se você vivesse com ele em boas pazes, ele faria qualquer coisa que você quisesse com o relógio. Por exemplo: vamos dizer que fossem nove horas da manhã, que é hora de estudar. Você teria apenas que insinuar alguma coisa no ouvido do Tempo, e o ponteiro correria num piscar de olhos: uma hora e meia, hora do almoço”.",
+        "references": "Fonte: Curso da vida. O chapeleiro louco dá uma lição sobre o tempo. On-line, 2017.",
+        "referenceDate": "Disponível em: http://www.cursodavida.com.br/aprendizagem2/o-chapeleiro-louco-da-uma-licao-sobre-o-tempo.html. Acesso em: 14 nov. 2018.",
+        "lastLine": "Assim, a respeito da mensagem do chapeleiro, assinale a alternativa correta:",
+        "options": ["O tempo é relativo e tudo depende da perspectiva como o imaginamos.", "Alice precisa estudar pontualmente às nove horas da manhã.", "O tempo só pode ser contado se marcado como gado.", "Nós vivemos em conflito com o tempo.", "O tempo passa rápido demais, sem que o percebamos."], 
+        "correctAnswer": "O tempo é relativo e tudo depende da perspectiva como o imaginamos."
     },
     {
         "id": 5, 
-        "firstLine": "O sábio contou a história sobre uma vila onde ele vivia antigamente. Ela sofria com a falta de progresso, por isso, com o tempo, o sábio começou a fundar escolas. Assim, a vila foi se desenvolvendo até que se tornou referência para todos do reino.", 
-        "secondLine": "Com base no exposto, assinale a alternativa correta:",
-        "options": ["A educação dá substância e fortalece bases de desenvolvimento de uma sociedade.", "O desenvolvimento acontece a partir do momento em que não há sábios na sociedade.", "A fundação de escolas só pode ser realizada por uma sociedade sem progresso.", "A falta de desenvolvimento atrai muitos sábios para uma vila.", "Só é possível virar uma grande referência quando não há escolas."], 
-        "correctAnswer": "A educação dá substância e fortalece bases de desenvolvimento de uma sociedade."
-    },
-    {
-        "id": 6, 
-        "firstLine": "O coelho é um personagem emblemático do livro “Alice no país das maravilhas”. Ele constantemente está apressado com a justificativa de que está atrasado, porém nunca se sabe o seu real objetivo. Esse comportamento está associado à síndrome da pressa, “um problema psicológico e comportamental que acontece com várias pessoas da atualidade. As pessoas costumam dizer que 24 horas é pouco tempo para realizar tantos afazeres”.", 
-        "references": "Fonte: CABRAL, G. Síndrome da pressa. Mundo Educação, 2018. ",
-        "referenceDate": "Disponível em: https://mundoeducacao.uol.com.br/psicologia/sindrome-pressa.htm. Acesso em: 22 maio 2024.",
+        "firstLine": "O coelho é um personagem emblemático do livro “Alice no país das maravilhas”. Ele, constantemente, está apressado com a justificativa de que está atrasado, porém nunca se sabe o seu real objetivo. Esse comportamento está associado à síndrome da pressa, “um problema psicológico e comportamental que acontece com várias pessoas da atualidade. As pessoas costumam dizer que 24 horas é pouco tempo para realizar tantos afazeres”.",
+        "references": "Fonte: CABRAL, G. Síndrome da pressa. Mundo Educação, 2018.",
+        "referenceDate": "Disponível em: https://mundoeducacao.bol.uol.com.br/psicologia/sindrome-pressa.htm. Acesso em: 14 nov. 2018",
         "lastLine": "Com base no exposto, assinale a alternativa correta:",
-        "options": ["O coelho só está apressado porque não sabe o real objetivo dos seus afazeres.", "A síndrome da pressa é um problema atual que afeta grande parte dos coelhos.", "O coelho está apressado porque 24 horas é pouco tempo para realizar seus afazeres.", "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante.", "O coelho está sempre apressado, mas isso não é um indicativo de síndrome da pressa."], 
+        "options": ["O coelho só está apressado porque não sabe o real objetivo dos seus afazeres.", "A síndrome da pressa é um problema atual que afeta grande parte os coelhos.", "O coelho está apressado porque 24 horas é pouco tempo para realizar seus afazeres.", "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante.", "O coelho está sempre apressado, mas isso não é um indicativo de síndrome da pressa."], 
         "correctAnswer": "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante."
     },
     {
+        "id": 6, 
+        "firstLine": "No livro “Peter Pan”, é contada a história de um garoto que se recusa a crescer. Uma de suas frases famosas é: “Pensamentos felizes fazem a gente voar”.", 
+        "lastLine": "Com isso, a respeito da mensagem implícita nesta frase, assinale a alternativa correta:",
+        "options": ["Para voar, basta ser feliz.", "A felicidade torna a vida mais leve.", "O pensamento positivo é divino.", "Voar é tão simples quanto ser feliz.", "Crianças conseguem voar porque são felizes."], 
+        "correctAnswer": "A felicidade torna a vida mais leve."
+    },
+    {
         "id": 7, 
-        "firstLine": "Leia o texto a seguir:", 
-        "thirdLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve às startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
-        "references": "Fonte: NÓBREGA, M. Síndrome de Peter Pan: um país que não deixam crescer. EXAME, São Paulo, 22 dez. 2018. ",
-        "referenceDate": "Disponível em: https://br.pinterest.com/pin/609252655859786190/. Acesso em: 22 maio 2024. ",
-        "lastLine": "Com relação ao exposto, assinale a alternativa que descreve o termo “Síndrome de Peter Pan”:",
-        "options": ["“É preciso evitar incentivos que mantenham essas empresas eternamente pequenas.”", "“As empresas de menor porte merecem ser estimuladas.”", "“O progresso tecnológico muito deve às startups.”", "“Depois são adquiridas pelas grandes empresas.”", "“Situação em que as empresas nunca desejam crescer.”"], 
-        "correctAnswer": "“Situação em que as empresas nunca desejam crescer.”"
+        "firstLine": "Observe a imagem a seguir:", 
+        "image": "./questions_img/peter-pan-wendy.jpg",
+        "imageReference": "Figura 1 – Peter Pan e Wendy",
+        "references": "Fonte: https://br.pinterest.com/pin/34340015882086823/?lp=true. Acesso em: 26 nov. 2018.",
+        "lastLine": "Analisando a imagem anterior, a respeito da reação de Peter Pan frente à Wendy, assinale a alternativa correta:",
+        "options": ["Susto, pois ele também está apaixonado por ela", "Amor, pois ele está se curvando para ela", "Preocupação, pois ela pode cair", "Espanto, pois ele não sabe como lidar com a investida de Wendy", "Emoção, pois ele não sabe como retribuir o sentimento da garota"], 
+        "correctAnswer": "Espanto, pois ele não sabe como lidar com a investida de Wendy"
     },
     {
         "id": 8, 
-        "firstLine": "Dom Quixote era um homem muito sonhador. Vivia imaginando grandes aventuras em que sempre fazia o papel de herói. Porém, de tanto ler e fantasiar, seu cérebro começou aos poucos a confundir-se. O passado e o presente se misturavam. Certo dia, convenceu-se de que era um daqueles valentes cavaleiros e tinha como missão ajudar os fracos e salvar as belas princesas raptadas por vilões.", 
-        "references": "Fonte: CERVANTES, M. Dom Quixote. Tradução de Paulo Rónai. 19. ed. São Paulo: Scipione, 1999. 864 p.",
-        "lastLine": "Com base no exposto, assinale a alternativa que classifica a ambiguidade da história de Dom Quixote:",
-        "options": ["Aventuras.", "Misturavam.", "Fantasiar.", "Ajudar.", "Sonhador."], 
-        "correctAnswer": "Fantasiar."
+        "firstLine": "Observe a imagem:", 
+        "largerImage": "./questions_img/trabalho-infantil.png",
+        "imageReference": "Figura 1 – Dias das crianças, precisamos falar sobre trabalho infantil",
+        "references": "Fonte:  http://versopsicologia.com.br/blogue/dia-das-criancas-precisamos-falar-sobre-o-trabalho-infantil.",
+        "referenceDate": "Acesso  em: 26 nov. 2018.",
+        "lastLine": "Relacionando a imagem anterior com a história de Peter Pan, a respeito da mensagem implícita, assinale a alternativa correta:",
+        "options": ["Ao contrário de Peter Pan, que vive na Terra do Nunca, existem crianças exercendo o papel de adultos precocemente.", "A criança só se torna adulta se quiser, visto que há crianças com bola e outras com equipamentos de trabalho nas mãos.", "Na Terra do Nunca, todas as crianças precisam trabalhar e somente o Peter Pan pode se divertir.", "Cada criança pode escolher o caminho que deseja tomar, seja trabalhar ou estudar.", "Não há mensagem implícita, pois está claro que cada criança escolhe com o que quer brincar."], 
+        "correctAnswer": "Ao contrário de Peter Pan, que vive na Terra do Nunca, existem crianças exercendo o papel de adultos precocemente."
     },
     {
         "id": 9, 
-        "firstLine": "Hércules foi um grande herói da Mitologia Grega. Ele era filho de Zeus (deus dos deuses) e da mortal Alcmena, por isso era considerado um semideus. Ele foi submetido a 12 trabalhos, que não poderiam ser executados por um mortal, sendo o primeiro deles matar o leão de Nemeia.", 
-        "references": "Fonte: PACIEVITCH, T. Hércules. InfoEscola, Palhoça, 2018. ",
-        "referenceDate": "Disponível em: https://www.infoescola.com/mitologia-grega/hercules/. Acesso em: 22 maio 2024.",
-        "lastLine": "A respeito dos 12 trabalhos de Hércules, assinale a alternativa correta:",
-        "options": ["Hércules era considerado um semideus por realizar trabalhos que não poderiam ser executados por mortais.", "Dos 12 trabalhos demandados para Hércules, apenas o primeiro foi cumprido.", "Hércules foi o único herói da mitologia grega.", "Os 12 trabalhos de Hércules poderiam ser executados por um semideus.", "Como Hércules é filho de Zeus, ele poderia ser considerado deus dos deuses."], 
-        "correctAnswer": "Os 12 trabalhos de Hércules poderiam ser executados por um semideus."
+        "firstLine": "Leia o texto a seguir:", 
+        "thirdLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve as startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
+        "references": "Fonte: NÓBREGA, M. Síndrome de Peter Pan: um país que não deixam crescer. Exame, 2018.",
+        "referenceDate": "Disponível em: https://veja.abril.com.br/blog/mailson-da-nobrega/sindrome-de-peter-pan-um-pais-que-nao-deixam-crescer/. Acesso em: 26 nov. 2018.",
+        "lastLine": "Com relação ao exposto, no que descreve o termo “Síndrome de Peter Pan”, assinale a alternativa correta:",
+        "options": ["“É preciso evitar incentivos que mantenham essas empresas eternamente pequenas”.", "“As empresas de menor porte merecem ser estimuladas”.", "“O progresso tecnológico muito deve às startups”.", "“Depois são adquiridas pelas grandes empresas”.", "“Situação em que as empresas nunca desejam crescer”."], 
+        "correctAnswer": "“Situação em que as empresas nunca desejam crescer”."
     },
     {
         "id": 10, 
-        "firstLine": "Leia o fragmento a seguir proferido por Polônio, personagem da história de Hamlet:", 
-        "thirdLine": "“Duvida que o sol seja claridade",
-        "fourthLine": "Duvida que as estrelas sejam chama,",
-        "fifthLine": "Suspeita da mentira na verdade,",
-        "sixthLine": "Mas não duvida deste que te ama!”",
-        "references": "Fonte: SHAKESPEARE, William. Hamlet. Tradução de Bernardo Carvalho. São Paulo: Editora WMF, 2014. 240 p.",
-        "referenceDate": "Disponível em: http://www.gutenberg.org/ebooks/25667. Acesso em: 22 maio 2024.",
-        "lastLine": "Assinale a alternativa que retrata o sentimento expresso no trecho exposto:",
-        "options": ["Medo.", "Dúvida.", "Emoção.", "Súplica.", "Alegria."], 
-        "correctAnswer": "Súplica."
+        "firstLine": "Observe a imagem a seguir:", 
+        "image": "./questions_img/sindrome-de-peter-pan.jpg",
+        "imageReference": "Figura 1 – Síndrome de Peter Pan: adultos que não amadurecem",
+        "references": "Fonte disponível em: http://vidaemfoco96.blogspot.com/2016/01/sindrome-de-peter-pan-adultos-que-nao.html. Acesso em: 14 nov. 2018.",
+        "lastLine": "Com relação à figura exposta, no que contém a mensagem implícita na imagem, assinale a alternativa correta:",
+        "options": ["Todo homem deseja voltar à infância.", "Nenhum homem é maduro.", "O amadurecimento nem sempre está relacionado à fase adulta.", "Todo menino deseja ser um homem.", "O homem está sempre evoluindo."], 
+        "correctAnswer": "O amadurecimento nem sempre está relacionado à fase adulta."
     }
 ]

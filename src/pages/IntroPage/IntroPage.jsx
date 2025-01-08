@@ -60,8 +60,8 @@ function IntroPage() {
                             Seja bem-vindo ao Game de Proficiência! 
                             </p>
                             <p>
-                            Teste seus conhecimentos em interpretação e raciocínio 
-                            lógico por meio de um quiz com 10 questões. Vamos lá? 
+                            Teste seus conhecimentos em interpretação por 
+                            meio de um quiz com 10 questões. Vamos lá? 
                             </p>
                         </TextArea>
 
