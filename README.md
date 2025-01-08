@@ -1,6 +1,6 @@
 ### **→ About the project**
 
-The [Proficiency Game](https://game-pro-sage.vercel.app/#/) presents a login screen where the student can enter their registration number (RA) and full name. After entering and confirming this information, the student gains access to 10 questions, displayed as slides, each with 5 alternatives. The feedback is instantaneous, and they are free to answer the questions in any order they prefer. Correctly answering at least 6 questions will generate a certificate containing their full name, RA, score, date, and time.
+The [Proficiency Game](https://game-pro-sage.vercel.app/#/) presents a login screen where the student can enter their registration number (RN) and full name **(you can log in using random numbers such as 123)**. After entering and confirming this information, the student gains access to 10 questions, displayed as slides, each with 5 alternatives. The feedback is instantaneous, and they are free to answer the questions in any order they prefer. Correctly answering at least 6 questions will generate a certificate containing their full name, RA, score, date, and time.
 Logging out will clear their data, as well as the selected answers.
 
 > The project was built with _React + Vite_ and styled using _styled-components_. The question slides were created with the _Swiper library_, and the certificate was generated using the _jsPDF_ library.
@@ -14,6 +14,26 @@ cd game-app-main
 npm install
 npm run dev
 ```
+
+### → Correct answers ✔
+
+<details>
+<summary>Spoiler alert! Click here.</summary>
+
+| Question  | Answer |
+| ------------- | ------------- |
+| 1  | Ideological Stalemate  |
+| 2  | Genetic variation  |
+| 3  | The consequences of unchecked ambition |
+| 4  | The harmful effects of pesticides on ecosystems |
+| 5  | The dangers of totalitarian regimes |
+| 6  | Humans are free to choose but must bear responsibility for their choices |
+| 7  | The importance of racial unity and equality |
+| 8  | It shows how mass can be converted into energy |
+| 9  | A period of peace and stability under Roman rule |
+| 10  | The mechanization of production and growth of cities |
+
+</details>
 
 ### **→ About the file organization**  
 
