@@ -1,27 +1,26 @@
-### **→ Sobre o projeto**
+### **→ About the project**
 
-O [Game Proficiência](https://livrodigital.unicesumar.edu.br/game/proficiencia/#/) apresenta tela de login para que o aluno insira o seu número de registro (RA) e seu nome completo. Após inserir e conferir essas informações, o aluno tem acesso a 10 questões, dispostas como slides, cada uma com 5 alternativas. O feedback é instantâneo e ele está livre para responder às perguntas na ordem em que preferir. Acertar, pelo menos, 6 questões, gera um certificado contendo nome completo, RA, pontuação, data e hora.   
-Fazer o logout limpa os seus dados, bem como as respostas selecionadas.
+The [Proficiency Game](https://game-pro-sage.vercel.app/#/) presents a login screen where the student can enter their registration number (RA) and full name. After entering and confirming this information, the student gains access to 10 questions, displayed as slides, each with 5 alternatives. The feedback is instantaneous, and they are free to answer the questions in any order they prefer. Correctly answering at least 6 questions will generate a certificate containing their full name, RA, score, date, and time.
+Logging out will clear their data, as well as the selected answers.
 
-> O projeto foi construído em _React + Vite_ e teve sua estilização realizada com _styled-components_. Os slides das perguntas foram feitos com a biblioteca _swiper_ e o certificado foi feito com a biblioteca _jspdf_.
+> The project was built with _React + Vite_ and styled using _styled-components_. The question slides were created with the _Swiper library_, and the certificate was generated using the _jsPDF_ library.
 
-### **→ Clonando na sua máquina**
+### **→ Cloning to your machine**
 
-No terminal:
+In the terminal:
 ```
-git clone https://github.com/DevEdTech/game_proficiencia.git
-cd game_proficiencia
+git clone https://github.com/AlineGuiseline/game-app-main
+cd game-app-main
 npm install
 npm run dev
 ```
 
-### **→ Sobre a organização dos arquivos**  
+### **→ About the file organization**  
 
-1. **Pasta dist:** contém os arquivos buildados, necessários para o deploy (index.html, imagens, fontes, folha de estilo e js)  
-2. **Pasta public:** contém tanto as imagens de favicon e do certificado, quanto as fontes utilizadas no certificado 
-3. **Pasta src:** contém os arquivos "App.jsx", "GlobalStyle.js", "main.jsx" e "ProtectedRoute.jsx" **(código feito para impedir que o aluno conseguisse acessar o jogo sem ter feito o login)**, bem como as pastas abaixo:
-    1. **Pasta assets:** contém todas as imagens do projeto, separadas nas subpastas "GamePage" e "IntroPage"
-    2. **Pasta components:** contém todos os componentes utilizados no projeto, separados nas subpastas nomeadas de acordo com os componentes e contendo o código em .jsx e o estilo em .js
-    3. **Pasta data:** contém um arquivo .json com todas as perguntas, alternativas e as respostas corretas
-    4. **Pasta fonts:** contém as fontes utilizadas no certificado
-    5. **Pasta pages:** contém a estrutura das duas páginas do projeto (tela de login e tela do jogo), separadas nas subpastas "GamePage" e "IntroPage"
+1. **public folder** contains both the favicon and certificate images, as well as the fonts used in the certificate.
+2. **src folder** contains the files "App.jsx", "GlobalStyle.js", "main.jsx", and "ProtectedRoute.jsx" **(code to prevent the student from accessing the game without logging in)**, along with the following subfolders:
+    1. **assets folder:** contains all the project images, separated into the "GamePage" and "IntroPage" subfolders.
+    2. **components folder:** contains all the components used in the project, separated into subfolders named according to the components, containing both the code in .jsx and the styles in .js.
+    3. **data folder** contains a .json file with all the questions, alternatives, and correct answers.
+    4. **fonts folder:** contains the fonts used in the certificate.
+    5. **pages folder:** contains the structure of the two pages of the project (login screen and game screen), separated into the "GamePage" and "IntroPage" subfolders.
