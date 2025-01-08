@@ -156,8 +156,8 @@ function Carrossel({ isLogoutModalOpen }) {
             </ProgressBarContainer>
             
             <TextArea>
-                <p><span>{totalAnswered}/{questions.length}</span> respondidas</p>
-                <p><span>{correctAnswersCount}</span> {correctAnswersCount === 1 ? 'acerto' : 'acertos'}</p>
+                <p><span>{totalAnswered}/{questions.length}</span> answered</p>
+                <p><span>{correctAnswersCount}</span> correct</p>
             </TextArea>
 
             <div className="swiper-button-next"></div>

@@ -19,14 +19,14 @@ function LoginModal({ handleCloseModal, handleLogin }){
         <>
         {modalVisible && (
             <Container>
-                <Title>Tem certeza que as informações de login estão corretas?</Title>
-                <Paragraph>Essas informações serão utilizadas na emissão <br />
-                do seu certificado. Não será possível alterar.
+                <Title>Are you sure the login information is correct?</Title>
+                <Paragraph>This information will be used to issue your certificate. 
+                    Changes will not be possible later.
                 </Paragraph>
 
                 <BtnArea>
-                    <CancelButton onClick={handleClose}>Revisar</CancelButton>
-                    <LoginButton onClick={handleConfirm}>Tenho certeza</LoginButton>
+                    <CancelButton onClick={handleClose}>Review</CancelButton>
+                    <LoginButton onClick={handleConfirm}>I’m Sure</LoginButton>
                 </BtnArea>
             </Container>
         )}

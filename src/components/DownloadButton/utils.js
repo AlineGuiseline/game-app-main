@@ -48,24 +48,23 @@ export async function generatePDF(firstName, lastName, registerNumber, responses
             
             doc.addImage(img, 'JPEG', 0, 0, width, height);
 
-            function formatedDate() {
-                const mesesBR = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
-                const day = new Date().getDate().toString().padStart(2, '0');
-                const month = new Date().getMonth();
-                const formatedMonth = mesesBR[month]
-                const year = new Date().getFullYear();
-
-                return `${day} de ${formatedMonth} de ${year}`
+            function formattedDate() {
+                const mesesEN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                const now = new Date();
+                const day = now.getDate().toString().padStart(2, '0');
+                const month = mesesEN[now.getMonth()];
+                const year = now.getFullYear();
+                return `${month} ${day}, ${year}`;
             }
             
             // Usar a fonte personalizada para o nome completo
             const fullName = `${firstName} ${lastName}`; 
-            const register = `RA: ${registerNumber}`; 
-            const text = `Pela participação no Game de Proficiência - Interpretação, acertando ${responses}% das questões.`;
+            const register = `RN: ${registerNumber}`; 
+            const text = `For participation in the Proficiency Game - Interpretation, scoring ${responses}% on the questions`;
             const currentHour = new Date().getHours().toString().padStart(2, '0');
             const currentMinute = new Date().getMinutes().toString().padStart(2, '0');
-            const data_emissao = formatedDate()
-            const date = `${data_emissao} às ${currentHour}:${currentMinute}`;
+            const data_emissao = formattedDate()
+            const date = `${data_emissao} at ${currentHour}:${currentMinute}`;
 
             doc.setFontSize(55); // Tamanho da fonte para o nome completo
             doc.setTextColor(0, 0, 0);
@@ -107,21 +106,21 @@ export async function generatePDF(firstName, lastName, registerNumber, responses
             const dateY = textY + 20;
             doc.text(date, dateX, dateY);
     
-            doc.save(`Certificado Interpretação - ${firstName}.pdf`);
+            doc.save(`Certificate - ${firstName}.pdf`);
         };
         
         img.onerror = function() {
-            console.error('Erro ao carregar a imagem.');
+            console.error('Error loading image.');
         };
     } catch (error) {
-        console.error('Erro ao gerar o PDF:', error);
+        console.error('Error generating PDF:', error);
     }
 }
 
 async function loadFontAsBinaryString(fontUrl) {
     const response = await fetch(fontUrl);
     if (!response.ok) {
-        throw new Error(`Falha ao carregar o arquivo de fonte ${fontUrl}`);
+        throw new Error(`Failed to load font file ${fontUrl}`);
     }
     const fontArrayBuffer = await response.arrayBuffer();
     const fontUint8Array = new Uint8Array(fontArrayBuffer);

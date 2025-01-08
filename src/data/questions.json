@@ -1,100 +1,81 @@
 [
     {
         "id": 1, 
-        "firstLine": "Observe o diálogo a seguir entre Alice e a lagarta, personagem do livro “Alice no país das maravilhas”:", 
-        "secondLine": "Lagarta Azul: - Quem é você?",
-        "thirdLine": "Alice: - Eu... já nem sei, minha senhora, nesse momento... Bem, eu sei quem eu era quando acordei esta manhã, mas acho que mudei tantas vezes desde então... mas o que sei é que tudo isso parece muito estranho para mim.",
-        "references": "Fonte: Livros digitais. Conselhos de uma lagarta. On-line, 2018.",
-        "referenceDate": "Disponível em: https://www.livros-digitais.com/lewis-carroll/alice-no-pais-das-maravilhas/31. Acesso em: 14 nov. 2018.",
-        "lastLine": "De acordo com o diálogo, assinale a alternativa correta:",
-        "options": ["A personagem não sabe seu próprio nome.", "A personagem reconhece suas constantes transformações de forma confortável.", "A personagem não consegue responder perguntas simples.", "A personagem encontra-se em um momento de confusão a respeito da identificação do próprio “eu”.", "A personagem precisa de ajuda para recuperar sua memória."], 
-        "correctAnswer": "A personagem encontra-se em um momento de confusão a respeito da identificação do próprio “eu”."
+        "firstLine": "During the Cold War, the world was divided into two major ideological blocs: the capitalist West, led by the United States, and the communist East, led by the Soviet Union. This period was marked by political tension, proxy wars, and the constant threat of nuclear conflict. Despite the rivalry, direct warfare between the superpowers was avoided.", 
+        "lastLine": "Based on the passage above, which of the following terms best describes the Cold War?",
+        "options": ["Global Reconciliation", "Non-Aligned Movement", "Ideological Stalemate", "Total War", "Decolonization"], 
+        "correctAnswer": "Ideological Stalemate"
     },
     {
         "id": 2, 
-        "firstLine": "Observe o diálogo a seguir:",
-        "secondLine": "- Poderia me dizer, por favor, que caminho devo tomar para sair daqui? disse Alice.",
-        "thirdLine": "- Isso depende bastante de onde você quer chegar, disse o Gato.",
-        "fourthLine": "- O lugar não importa muito…",
-        "fifthLine": "- Então não importa o caminho que você vai tomar.",
-        "references": "Fonte: STINGUEL, D. Lista de livros. On-line, 2018.",
-        "referenceDate": "Disponível em: https://listadelivros-doney.blogspot.com/2008/05/alice-no-pas-das-maravilhas-lewis.html. Acesso em: 14 nov. 2018.",
-        "lastLine": "A partir do diálogo, a respeito do que é possível inferir, assinale a alternativa correta:",
-        "options": ["O gato está tão perdido quanto Alice.", "Se o objetivo de Alice é apenas sair daquele lugar, qualquer caminho será válido.", "O caminho não importa, se existe um objetivo.", "Só existe um caminho correto e o gato sabe qual é.", "Só o lugar importa para Alice, por isso ela não sabe qual caminho tomar."], 
-        "correctAnswer": "Se o objetivo de Alice é apenas sair daquele lugar, qualquer caminho será válido."
+        "firstLine": "In his book On the Origin of Species, Charles Darwin introduced the theory of evolution by natural selection. This groundbreaking idea proposed that species evolve over time due to genetic variations that enhance their survival and reproduction in specific environments.",
+        "references": "Source: Darwin, Charles. On the Origin of Species. John Murray, 1859.",
+        "lastLine": "According to Darwin's theory, which of the following factors plays the most significant role in evolution?",
+        "options": ["Random chance", "Genetic variation", "External mutations", "Environmental stability.", "Social behavior"], 
+        "correctAnswer": "Genetic variation"
     },
     {
         "id": 3, 
-        "firstLine": "O livro “Alice no País das Maravilhas” conta a história da jovem Alice que cai, por acidente, dentro da toca de um coelho e, assim, é transportada para um espaço lúdico, colocando-a em contato com diversos personagens que lhe ensinam ou lhe propõem desafios. Muitos dizem que a história trata da transição da infância para adolescência, momento em que muitos jovens estão se descobrindo e buscando uma identidade, um espaço para “chamar de seu”.", 
-        "lastLine": "Com isso, a respeito do livro, assinale a alternativa correta:",
-        "options": ["Alice é uma garota madura, porém ainda muito jovem e não consegue entender mais o universo lúdico.", "Alice precisa percorrer toda a história para entender que ainda é criança.", "O acidente que Alice sofreu causou toda a confusão de identidade na garota. A todo tempo, ela estava buscando um espaço para “chamar de seu”", "O espaço lúdico, aliado aos desafios enfrentados pela garota, consegue representar muito bem esse cenário de transição da infância para a adolescência.", "Alice não está preparada para encarar desafios, assim como muitos adultos."], 
-        "correctAnswer": "O espaço lúdico, aliado aos desafios enfrentados pela garota, consegue representar muito bem esse cenário de transição da infância para a adolescência."
+        "firstLine": "In Shakespeare's “Macbeth”, the titular character is haunted by his ambition and a prophecy that he will become king. Encouraged by his wife, Lady Macbeth, he murders King Duncan to seize the throne, leading to a series of events that culminate in his downfall.", 
+        "references": "Source: Shakespeare, William. Macbeth. 1606.",
+        "lastLine": "Which of the following themes is most evident in Macbeth?",
+        "options": ["The power of love", "The consequences of unchecked ambition", "The importance of family loyalty", "The inevitability of fate", "The pursuit of justice"], 
+        "correctAnswer": "The consequences of unchecked ambition"
     },
     {
         "id": 4, 
-        "firstLine": "Leia o trecho a seguir pronunciado pelo chapeleiro, um dos personagens do livro “Alice no país das maravilhas”", 
-        "secondLine": "“O Tempo não suporta ser marcado como se fosse gado. Mas se você vivesse com ele em boas pazes, ele faria qualquer coisa que você quisesse com o relógio. Por exemplo: vamos dizer que fossem nove horas da manhã, que é hora de estudar. Você teria apenas que insinuar alguma coisa no ouvido do Tempo, e o ponteiro correria num piscar de olhos: uma hora e meia, hora do almoço”.",
-        "references": "Fonte: Curso da vida. O chapeleiro louco dá uma lição sobre o tempo. On-line, 2017.",
-        "referenceDate": "Disponível em: http://www.cursodavida.com.br/aprendizagem2/o-chapeleiro-louco-da-uma-licao-sobre-o-tempo.html. Acesso em: 14 nov. 2018.",
-        "lastLine": "Assim, a respeito da mensagem do chapeleiro, assinale a alternativa correta:",
-        "options": ["O tempo é relativo e tudo depende da perspectiva como o imaginamos.", "Alice precisa estudar pontualmente às nove horas da manhã.", "O tempo só pode ser contado se marcado como gado.", "Nós vivemos em conflito com o tempo.", "O tempo passa rápido demais, sem que o percebamos."], 
-        "correctAnswer": "O tempo é relativo e tudo depende da perspectiva como o imaginamos."
+        "firstLine": "In Rachel Carson’s influential book Silent Spring, she exposed the harmful effects of pesticides on the environment, particularly on birds. Her work raised public awareness about the dangers of chemical pollution and sparked the modern environmental movement.", 
+        "references": "Source: Carson, Rachel. Silent Spring. Houghton Mifflin, 1962.",
+        "secondLine": "What was the primary focus of Rachel Carson’s Silent Spring?",
+        "options": ["The impact of industrialization on air quality", "The dangers of climate change", "The harmful effects of pesticides on ecosystems", "The preservation of endangered species", "The benefits of organic farming"], 
+        "correctAnswer": "The harmful effects of pesticides on ecosystems"
     },
     {
         "id": 5, 
-        "firstLine": "O coelho é um personagem emblemático do livro “Alice no país das maravilhas”. Ele, constantemente, está apressado com a justificativa de que está atrasado, porém nunca se sabe o seu real objetivo. Esse comportamento está associado à síndrome da pressa, “um problema psicológico e comportamental que acontece com várias pessoas da atualidade. As pessoas costumam dizer que 24 horas é pouco tempo para realizar tantos afazeres”.",
-        "references": "Fonte: CABRAL, G. Síndrome da pressa. Mundo Educação, 2018.",
-        "referenceDate": "Disponível em: https://mundoeducacao.bol.uol.com.br/psicologia/sindrome-pressa.htm. Acesso em: 14 nov. 2018",
-        "lastLine": "Com base no exposto, assinale a alternativa correta:",
-        "options": ["O coelho só está apressado porque não sabe o real objetivo dos seus afazeres.", "A síndrome da pressa é um problema atual que afeta grande parte os coelhos.", "O coelho está apressado porque 24 horas é pouco tempo para realizar seus afazeres.", "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante.", "O coelho está sempre apressado, mas isso não é um indicativo de síndrome da pressa."], 
-        "correctAnswer": "A síndrome da pressa pode ser desencadeada por um comportamento de pressa, com a justificativa de atraso constante."
+        "firstLine": "In George Orwell's 1984, the protagonist, Winston Smith, lives in a dystopian society where the government, led by Big Brother, exercises total control over its citizens. Individual freedoms are suppressed, history is rewritten, and surveillance is constant. The novel explores themes of totalitarianism, truth, and resistance.",
+        "references": "Source: Orwell, George. 1984. Secker & Warburg, 1949.",
+        "lastLine": "What central theme does George Orwell’s 1984 explore?",
+        "options": ["The value of technological advancement", "The pursuit of individual happiness", "The dangers of totalitarian regimes", "The importance of historical accuracy", "The inevitability of progress"], 
+        "correctAnswer": "The dangers of totalitarian regimes"
     },
     {
         "id": 6, 
-        "firstLine": "No livro “Peter Pan”, é contada a história de um garoto que se recusa a crescer. Uma de suas frases famosas é: “Pensamentos felizes fazem a gente voar”.", 
-        "lastLine": "Com isso, a respeito da mensagem implícita nesta frase, assinale a alternativa correta:",
-        "options": ["Para voar, basta ser feliz.", "A felicidade torna a vida mais leve.", "O pensamento positivo é divino.", "Voar é tão simples quanto ser feliz.", "Crianças conseguem voar porque são felizes."], 
-        "correctAnswer": "A felicidade torna a vida mais leve."
+        "firstLine": "In his seminal work Being and Nothingness, Jean-Paul Sartre explores the concept of existentialism, emphasizing individual freedom, choice, and responsibility. He argues that humans are condemned to be free, meaning they must create their essence through actions, as life has no inherent meaning.", 
+        "references": "Source: Sartre, Jean-Paul. Being and Nothingness. Gallimard, 1943.",
+        "lastLine": "What does Sartre mean by saying humans are “condemned to be free”?",
+        "options": ["Freedom is a burden imposed by society", "Humans must find meaning through religious faith", "Humans are free to choose but must bear responsibility for their choices", "Freedom is limited by social structures", "Humans are bound by their biological instincts"], 
+        "correctAnswer": "Humans are free to choose but must bear responsibility for their choices"
     },
     {
         "id": 7, 
-        "firstLine": "Observe a imagem a seguir:", 
-        "image": "./questions_img/peter-pan-wendy.jpg",
-        "imageReference": "Figura 1 – Peter Pan e Wendy",
-        "references": "Fonte: https://br.pinterest.com/pin/34340015882086823/?lp=true. Acesso em: 26 nov. 2018.",
-        "lastLine": "Analisando a imagem anterior, a respeito da reação de Peter Pan frente à Wendy, assinale a alternativa correta:",
-        "options": ["Susto, pois ele também está apaixonado por ela", "Amor, pois ele está se curvando para ela", "Preocupação, pois ela pode cair", "Espanto, pois ele não sabe como lidar com a investida de Wendy", "Emoção, pois ele não sabe como retribuir o sentimento da garota"], 
-        "correctAnswer": "Espanto, pois ele não sabe como lidar com a investida de Wendy"
+        "firstLine": "Dr. Martin Luther King Jr.'s “I Have a Dream speech”, delivered during the 1963 March on Washington, became a defining moment of the Civil Rights Movement. In it, King envisioned a future where people would be judged not by the color of their skin but by the content of their character.", 
+        "references": "Source: King, Martin Luther Jr. I Have a Dream. 1963.",
+        "lastLine": "Which of the following best captures the message of King’s I Have a Dream speech?",
+        "options": ["The need for economic equality above all", "The importance of racial unity and equality", "The rejection of nonviolent protest", "The emphasis on individual freedom over community", "The demand for immediate political revolution"], 
+        "correctAnswer": "The importance of racial unity and equality"
     },
     {
         "id": 8, 
-        "firstLine": "Observe a imagem:", 
-        "largerImage": "./questions_img/trabalho-infantil.png",
-        "imageReference": "Figura 1 – Dias das crianças, precisamos falar sobre trabalho infantil",
-        "references": "Fonte:  http://versopsicologia.com.br/blogue/dia-das-criancas-precisamos-falar-sobre-o-trabalho-infantil.",
-        "referenceDate": "Acesso  em: 26 nov. 2018.",
-        "lastLine": "Relacionando a imagem anterior com a história de Peter Pan, a respeito da mensagem implícita, assinale a alternativa correta:",
-        "options": ["Ao contrário de Peter Pan, que vive na Terra do Nunca, existem crianças exercendo o papel de adultos precocemente.", "A criança só se torna adulta se quiser, visto que há crianças com bola e outras com equipamentos de trabalho nas mãos.", "Na Terra do Nunca, todas as crianças precisam trabalhar e somente o Peter Pan pode se divertir.", "Cada criança pode escolher o caminho que deseja tomar, seja trabalhar ou estudar.", "Não há mensagem implícita, pois está claro que cada criança escolhe com o que quer brincar."], 
-        "correctAnswer": "Ao contrário de Peter Pan, que vive na Terra do Nunca, existem crianças exercendo o papel de adultos precocemente."
+        "firstLine": "Albert Einstein's theory of relativity revolutionized physics by introducing the idea that space and time are interconnected and relative to the observer. His famous equation, 𝐸=𝑚𝑐², established the relationship between energy, mass, and the speed of light, forming the foundation of modern physics.", 
+        "references": "Source: Einstein, Albert. Relativity: The Special and General Theory. 1916.",
+        "lastLine": "What is the significance of Einstein's equation 𝐸=𝑚𝑐²?",
+        "options": ["It proves the existence of black holes", "It shows how mass can be converted into energy", "It explains the force of gravity", "It predicts the behavior of subatomic particles", "It disproves Newtonian mechanics"], 
+        "correctAnswer": "It shows how mass can be converted into energy"
     },
     {
         "id": 9, 
-        "firstLine": "Leia o texto a seguir:", 
-        "thirdLine": "As empresas de menor porte merecem ser estimuladas. O progresso tecnológico muito deve as startups que inovam e depois são adquiridas pelas grandes empresas. Acontece que é preciso evitar incentivos que mantenham essas empresas eternamente pequenas. Esse problema é conhecido na literatura como “Síndrome de Peter Pan”, isto é, a situação em que as empresas nunca desejam crescer.",
-        "references": "Fonte: NÓBREGA, M. Síndrome de Peter Pan: um país que não deixam crescer. Exame, 2018.",
-        "referenceDate": "Disponível em: https://veja.abril.com.br/blog/mailson-da-nobrega/sindrome-de-peter-pan-um-pais-que-nao-deixam-crescer/. Acesso em: 26 nov. 2018.",
-        "lastLine": "Com relação ao exposto, no que descreve o termo “Síndrome de Peter Pan”, assinale a alternativa correta:",
-        "options": ["“É preciso evitar incentivos que mantenham essas empresas eternamente pequenas”.", "“As empresas de menor porte merecem ser estimuladas”.", "“O progresso tecnológico muito deve às startups”.", "“Depois são adquiridas pelas grandes empresas”.", "“Situação em que as empresas nunca desejam crescer”."], 
-        "correctAnswer": "“Situação em que as empresas nunca desejam crescer”."
+        "firstLine": "The Pax Romana, or Roman Peace, was a period of relative stability and prosperity across the Roman Empire that lasted for approximately 200 years. This era, beginning with Emperor Augustus, was marked by advancements in trade, architecture, and governance.", 
+        "references": "Source: Gibbon, Edward. The History of the Decline and Fall of the Roman Empire. 1776.",
+        "lastLine": "What was the Pax Romana?",
+        "options": ["A series of military conquests by the Roman Empire", "The decline and fall of the Roman Empire", "The division of the empire into Eastern and Western regions", "A cultural revival in Roman literature and art", "A period of peace and stability under Roman rule"], 
+        "correctAnswer": "A period of peace and stability under Roman rule"
     },
     {
         "id": 10, 
-        "firstLine": "Observe a imagem a seguir:", 
-        "image": "./questions_img/sindrome-de-peter-pan.jpg",
-        "imageReference": "Figura 1 – Síndrome de Peter Pan: adultos que não amadurecem",
-        "references": "Fonte disponível em: http://vidaemfoco96.blogspot.com/2016/01/sindrome-de-peter-pan-adultos-que-nao.html. Acesso em: 14 nov. 2018.",
-        "lastLine": "Com relação à figura exposta, no que contém a mensagem implícita na imagem, assinale a alternativa correta:",
-        "options": ["Todo homem deseja voltar à infância.", "Nenhum homem é maduro.", "O amadurecimento nem sempre está relacionado à fase adulta.", "Todo menino deseja ser um homem.", "O homem está sempre evoluindo."], 
-        "correctAnswer": "O amadurecimento nem sempre está relacionado à fase adulta."
+        "firstLine": "The Industrial Revolution began in the late 18th century and transformed economies by shifting production from manual labor to machines. It introduced new technologies like the steam engine, revolutionized transportation, and led to urbanization, as people moved to cities in search of work.", 
+        "references": "Source: Hobsbawm, Eric. The Age of Revolution: 1789–1848. Weidenfeld & Nicolson, 1962.",
+        "lastLine": "Which of the following was a major consequence of the Industrial Revolution?",
+        "options": ["The decline of urban populations", "The widespread adoption of feudal agriculture", "The mechanization of production and growth of cities", "The end of international trade", "The rejection of scientific advancements"], 
+        "correctAnswer": "The mechanization of production and growth of cities"
     }
 ]

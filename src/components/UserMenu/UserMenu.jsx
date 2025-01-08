@@ -31,16 +31,16 @@ const UserMenu = ({closeMenu, onLogoutModalOpen, isLogoutModalOpen}) => {
                     {info.length > 0 ? (
                         <>
                         <UserName>{info[0]} {info[1]}</UserName>
-                        <UserRa>RA: {info[2]}</UserRa>
+                        <UserRa>RN: {info[2]}</UserRa>
                         </>
                     ) : (
-                        <UserName>Carregando...</UserName>
+                        <UserName>Loading...</UserName>
                         )
                     }
                     
                     <LogoutBtn onClick={logout}>
                         <img src={logoutIcon} alt="" />
-                        Sair</LogoutBtn>
+                        Exit</LogoutBtn>
                 </div>
             </DropDownContainer>
             {modalVisible && (

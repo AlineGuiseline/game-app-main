@@ -33,14 +33,15 @@ function ResetModal({ onModalOpen }){
                     
                 </PercentageContainer>
 
-                <Title>Poxa...</Title>
-                <Subtitle>Você não atingiu a média necessária.</Subtitle>
+                <Title>Oops</Title>
+                <Subtitle>You did not reach the required average.</Subtitle>
 
                 <div>
-                    <Paragraph>Mas não se preocupe! Você pode tentar novamente. Encare isso 
-                        como mais uma oportunidade de aprendizado e crescimento.</Paragraph>
+                    <Paragraph>But don’t worry! You can try again. 
+                        Look at this as another opportunity for learning and growth.
+                    </Paragraph>
                         
-                    <Paragraph>Para tentar de novo, é só clicar no botão abaixo.</Paragraph>
+                    <Paragraph>To try again, just click the button below.</Paragraph>
                 </div>
                 <ResetButton />
             </Container>

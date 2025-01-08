@@ -24,14 +24,18 @@ function DownloadModal({ onClose }){
                     
                 </PercentageContainer>
 
-                <Title>Parabéns!</Title>
-                <Subtitle>Você demonstrou um excelente desempenho.</Subtitle>
+                <Title>Congratulations!</Title>
+                <Subtitle>You have demonstrated excellent performance.</Subtitle>
                 
                 <div>
-                    <Paragraph>Continue buscando sempre o seu melhor! Estamos orgulhosos de ter você 
-                        em nossa instituição e desejamos sucesso em toda sua jornada acadêmica.</Paragraph>
+                    <Paragraph>Keep striving to be your best! 
+                        We are proud to have you in our institution and wish 
+                        you success throughout your academic journey.
+                    </Paragraph>
 
-                        <Paragraph>Você já pode baixar seu certificado. É só clicar no botão abaixo.</Paragraph>
+                    <Paragraph>You can now download your certificate. 
+                        Just click the button below.
+                    </Paragraph>
                 </div>
             <DownloadButton 
             correctAnswersCount={correctAnswersCount} 

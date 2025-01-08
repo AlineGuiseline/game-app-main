@@ -25,11 +25,11 @@ function LogoutModal({ closeModal, closeMenu, onModalOpen }){
         <>
         {modalVisible && (
             <Container>
-                <Title>Tem certeza que deseja sair?</Title>
-                <Paragraph>Você perderá o progresso no jogo.</Paragraph>
+                <Title>Are you sure you want to exit?</Title>
+                <Paragraph>You will lose your progress in the game.</Paragraph>
 
                 <BtnArea>
-                    <CancelButton onClick={handleCloseModal}>Cancelar</CancelButton>
+                    <CancelButton onClick={handleCloseModal}>Cancel</CancelButton>
                     <LogoutButton />
                 </BtnArea>
             </Container>

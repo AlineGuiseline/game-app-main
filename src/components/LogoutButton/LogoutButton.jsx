@@ -12,7 +12,7 @@ function ResetButton(){
 
     return(
         <Button onClick={reset}>
-            Sair
+            Exit
         </Button>
     )
 }

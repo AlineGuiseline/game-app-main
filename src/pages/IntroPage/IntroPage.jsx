@@ -34,10 +34,10 @@ function IntroPage() {
         e.preventDefault();
 
         if (!nome || !sobrenome || !registro){
-            setErrorMessage('Todos os campos são obrigatórios')
+            setErrorMessage('All fields are required.')
             return
         } else if (!/^[0-9\-]+$/.test(registro)) {
-            setErrorMessage('O registro deve conter apenas números e hífens');
+            setErrorMessage('The record must contain only numbers and hyphens');
             return;
         } else {
             setModalVisible((prevState) => !prevState);
@@ -57,17 +57,17 @@ function IntroPage() {
 
                         <TextArea>
                             <p>
-                            Seja bem-vindo ao Game de Proficiência! 
+                            Welcome to the Proficiency Game!
                             </p>
                             <p>
-                            Teste seus conhecimentos em interpretação por 
-                            meio de um quiz com 10 questões. Vamos lá? 
+                            Test your interpretation skills with a 10-question quiz. 
+                            Shall we begin? 
                             </p>
                         </TextArea>
 
                         <FormContainer onSubmit={loginConfirm}>
                             <FormGroup>
-                                <Label htmlFor="registro">R.A.</Label>
+                                <Label htmlFor="registro">R.N.</Label>
                                 <Input 
                                 className="register"
                                 type="text" 
@@ -79,7 +79,7 @@ function IntroPage() {
 
                             <FormGroupInline>
                                 <FormGroup>
-                                    <Label htmlFor="nome">Nome</Label>
+                                    <Label htmlFor="nome">First Name</Label>
                                     <Input 
                                     type="text"
                                     id="nome"
@@ -89,7 +89,7 @@ function IntroPage() {
                                 </FormGroup>
 
                                 <FormGroup>
-                                    <Label htmlFor="nome">Sobrenome</Label>
+                                    <Label htmlFor="nome">Last Name</Label>
                                     <Input 
                                     type="text"
                                     id="sobrenome"
@@ -99,7 +99,7 @@ function IntroPage() {
                                 </FormGroup>
                             </FormGroupInline>
                             
-                            <FormButton type="submit" onClick={loginConfirm}>Entrar</FormButton>
+                            <FormButton type="submit" onClick={loginConfirm}>Enter</FormButton>
                             {errorMessage && <ErrorAlert>{errorMessage}</ErrorAlert>}
                         </FormContainer>
                     </LoginArea>

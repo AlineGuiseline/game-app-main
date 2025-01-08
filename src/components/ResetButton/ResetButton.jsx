@@ -11,7 +11,7 @@ function ResetButton(){
 
     return(
         <Button onClick={reset}>
-            Tentar novamente
+            Try again
         </Button>
     )
 }
